@@ -1,7 +1,8 @@
-talk_a_bit
-==========
+Software Livre
+==============
 
-Slides para a apresentação no Talk a Bit 2013 sobre Software Livre e de Código Aberto. Os slides estão disponíveis 
-através da licença Creative Commons Attribution-NonCommercial-ShareALike v3.0. 
+Slides sobre Software Livre e de Código Aberto. Essa apresentação originalmente foi feita num evento chamado Talk a Bit, realizado em 2013 no CIn-UFPE sob organização do CITi.  
 
 O arquivo fonte dos slides (.TeX) contém diversas anotações que complementam sua contraparte formatada (.pdf). 
+
+Última atualização: Junho/2017. 
