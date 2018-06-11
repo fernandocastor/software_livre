@@ -7,9 +7,9 @@
 
 % THIS WORK USES A NUMBER OF IMAGES FROM THIRD-PARTIES. THE COPYRIGHT OF THESE IMAGES REMAIN WITH THEIR OWNERS. 
 
-% This license applies solely to the talk_a_bit.tex file. 
+% This license applies solely to the software_livre file. 
 
-% Build this file with pdflatex talk_a_bit.tex
+% Build this file with pdflatex software_livre.tex
 \documentclass[xcolor=dvipsnames]{beamer}
 \usecolortheme[named=Brown]{structure} 
 %\usetheme{Rochester}
@@ -20,7 +20,7 @@
 \usepackage{ulem}
 % For OSX, uncomment the following line.
 %\usepackage{multirow}
-\usepackage[latin1]{inputenc}   % para os acentos
+\usepackage[utf8]{inputenc}   % para os acentos
 \usepackage[brazil]{babel}      % para hifeniza\c{c}\~{a}o
 \usepackage{color}
 
@@ -43,11 +43,11 @@
 \definecolor{lightestgrey}{rgb}{0.91, 0.91, 0.91}
 \newcommand{\lshd}[1]{\colorbox{lightestgrey}{#1}}
 
-\title{Software Livre e de CÛdigo Aberto}
+\title{Software Livre e de C\'{o}digo Aberto}
 \author{Fernando Castor}
 \pgfdeclareimage[height=0.4cm]{cc}{license}
 
-\institute{Centro de Inform·tica -- Universidade Federal de Pernambuco \\[2.0cm] {\tiny Alguns direitos reservados }\pgfuseimage{cc} }
+\institute{Centro de Inform\'{a}tica -- Universidade Federal de Pernambuco \\[2.0cm] {\tiny Alguns direitos reservados }\pgfuseimage{cc} }
 \date{}
 
 \pgfdeclareimage[height=1.0cm]{logo}{ines}
@@ -56,7 +56,7 @@
 %\pgfdeclareimage[height=1.1cm]{logo4}{talk}
 
 \logo{\pgfuseimage{logo3}\hspace{0.1cm}
-\pgfuseimage{logo}\hspace{0.1cm}\pgfuseimage{logo2} }
+\pgfuseimage{logo}\hspace{0.1cm}\pgfuseimage{logo2}}
 
 
 %\logo{\pgfuseimage{logo4}\hspace{0.1cm}\pgfuseimage{logo3}\hspace{0.1cm}
@@ -68,25 +68,25 @@
 
 
 \begin{frame}
-	\frametitle{O que essas organizaÁıes tÍm em comum?}
+	\frametitle{O que essas organiza\c{c}\~{o}es tem em comum?}
 	\includegraphics[scale=0.38]{samsung.jpg}\hspace{0.8cm}
-% A samsung vendeu 205 milhıes de \textit{smartphones} em 2012\\
+% A samsung vendeu 205 milh√µes de \textit{smartphones} em 2012\\
 %This image only consists of simple geometric shapes and/or text. It does not meet the threshold of originality needed  for copyright protection, and is therefore in the public domain. Although it is free of copyright restrictions, this image may still be subject to other restrictions. See WP:PD#Fonts or Template talk:PD-textlogo for more information.
   \includegraphics[scale=0.20]{brasil.jpg}\hspace{0.8cm}
   % Desde 2000, o governo federal estabeleceu que software livre deve ser utilizado sempre que 
-  % for possÌvel a fim de melhorar a eficiÍncia financeira dos Ûrg„os p˙blicos brasileiros e tambÈm
-  % "mas pelas possibilidades que abre no campo da produÁ„o e circulaÁ„o de conhecimento, no acesso
-  %  a novas tecnologias e no estÌmulo ao desenvolvimento de software em ambientes colaborativos e
+  % for poss√≠vel a fim de melhorar a efici√™ncia financeira dos √≥rg√£os p√∫blicos brasileiros e tamb√©m
+  % "mas pelas possibilidades que abre no campo da produ√ß√£o e circula√ß√£o de conhecimento, no acesso
+  %  a novas tecnologias e no est√≠mulo ao desenvolvimento de software em ambientes colaborativos e
   %  ao desenvolvimento de software nacional" 
   % (http://pt.wikipedia.org/wiki/Software_livre_nos_governos#Brasil). 
-  % Complementarmente, no Portal do SERPRO (ServiÁo Federal de Processamento de Dados), È dito que
-  % "O uso e desenvolvimento de software livre È um investimento em tecnologia sobre bases Èticas 
-  %  e socialmente respons·veis, j· que o compartilhamento do conhecimento permite a socializaÁ„o 
-  %  do desenvolvimento tecnolÛgico e o combate ‡ privatizaÁ„o do saber."
+  % Complementarmente, no Portal do SERPRO (Servi√ßo Federal de Processamento de Dados), √© dito que
+  % "O uso e desenvolvimento de software livre √© um investimento em tecnologia sobre bases √©ticas 
+  %  e socialmente respons√°veis, j√° que o compartilhamento do conhecimento permite a socializa√ß√£o 
+  %  do desenvolvimento tecnol√≥gico e o combate √† privatiza√ß√£o do saber."
   %  (http://www4.serpro.gov.br/tecnologia/software-livre)
   \includegraphics[scale=0.45]{mozilla.png}\\[0.3cm] 
-%A Mozilla Foundation faturou US\$ 300 milhıes em 2012\\	
-% LicenÁa: This file contains a logo for a Mozilla product (such as the 
+%A Mozilla Foundation faturou US\$ 300 milh√µes em 2012\\	
+% Licen√ßa: This file contains a logo for a Mozilla product (such as the 
 % Firefox browser or the Mozilla Thunderbird email client) and is protected by 
 % copyright and/or trademark by the Mozilla Foundation and/or its subsidiary 
 % Mozilla Corporation. According to the Mozilla trademark policy, the logo is free 
@@ -94,51 +94,58 @@
 % used commercially; (iii) It is not modified; (iv) It is not high resolution.
 	\includegraphics[scale=0.20]{redhat.png}\hspace{0.8cm}
 %A Red Hat projeta chegar a um faturamento de US\$ 3 bi. em 2016
-	%LicenÁa: Copyright pertence ‡ Red Hat, Inc. Uso para fins educacionais 
-% e n„o-comerciais com uma figura de
-    % baixa resoluÁ„o È PROVAVELMENTE considerando um uso justo (fair use) de 
+	%Licen√ßa: Copyright pertence √† Red Hat, Inc. Uso para fins educacionais 
+% e n√£o-comerciais com uma figura de
+    % baixa resolu√ß√£o √© PROVAVELMENTE considerando um uso justo (fair use) de 
 % acordo com a lei americana.
 	\hspace{0.15cm}\includegraphics[scale=0.15]{ibm.png}\hspace{0.8cm}
-	% Entre 1995 e 2005, a IBM investiu mais de 1 bilh„o de dÛlares no 
+	% Entre 1995 e 2005, a IBM investiu mais de 1 bilh√£o de d√≥lares no 
     % Linux e em tecnologias associadas. Recentemente, em setembro deste ano, 
-    % anunciou que investiria pelo menos mais 1 bilh„o tanto no Linux quanto
-    % em tecnologias de software de cÛdigo aberto. 
-    % Mais informaÁıes em http://www-03.ibm.com/press/us/en/pressrelease/41926.wss
-    % AlÈm disso tudo, tem o investimento grande que ela fez na plataforma Eclipse.
-	%LicenÁa: Esta imagem, ou texto mostrado nela, consiste somente de 
-    % simples formas geomÈtricas ou texto. 
-	% Elas n„o se encontram no limiar de originalidade necess·rio para a   
-    % proteÁ„o de direitos autorais e por 
-	% isso est„o em domÌnio p˙blico. Embora seja livre de restriÁıes de 
+    % anunciou que investiria pelo menos mais 1 bilh√£o tanto no Linux quanto
+    % em tecnologias de software de c√≥digo aberto. 
+    % Mais informa√ß√µes em http://www-03.ibm.com/press/us/en/pressrelease/41926.wss
+    % Al√©m disso tudo, tem o investimento grande que ela fez na plataforma Eclipse.
+	%Licen√ßa: Esta imagem, ou texto mostrado nela, consiste somente de 
+    % simples formas geom√©tricas ou texto. 
+	% Elas n√£o se encontram no limiar de originalidade necess√°rio para a   
+    % prote√ß√£o de direitos autorais e por 
+	% isso est√£o em dom√≠nio p√∫blico. Embora seja livre de restri√ß√µes de 
     % direitos autorais, esta imagem ainda 
-	% pode estar sujeita a outras restriÁıes.
+	% pode estar sujeita a outras restri√ß√µes.
 	\hspace{0.15cm}\includegraphics[scale=0.19]{facebook.jpg}\vspace{0.8cm}
-	%LicenÁa: Esta imagem, ou texto mostrado nela, consiste somente de 
-% simples formas geomÈtricas ou texto. 
-	% Elas n„o se encontram no limiar de originalidade necess·rio para a 
-% proteÁ„o de direitos autorais e por 
-	% isso est„o em domÌnio p˙blico. Embora seja livre de restriÁıes de 
+	%Licen√ßa: Esta imagem, ou texto mostrado nela, consiste somente de 
+% simples formas geom√©tricas ou texto. 
+	% Elas n√£o se encontram no limiar de originalidade necess√°rio para a 
+% prote√ß√£o de direitos autorais e por 
+	% isso est√£o em dom√≠nio p√∫blico. Embora seja livre de restri√ß√µes de 
 % direitos autorais, esta imagem ainda 
-	% pode estar sujeita a outras restriÁıes.
-     \hspace{0.15cm}\includegraphics[scale=0.19]{apple_logo.png}
-	%LicenÁa: Esta imagem, ou texto mostrado nela, consiste somente de 
-% simples formas geomÈtricas ou texto. 
-	% Elas n„o se encontram no limiar de originalidade necess·rio para a 
-% proteÁ„o de direitos autorais e por 
-	% isso est„o em domÌnio p˙blico. Embora seja livre de restriÁıes de 
+	% pode estar sujeita a outras restri√ß√µes.
+     \hspace{0.15cm}\includegraphics[scale=0.19]{apple_logo.png}\hspace{0.8cm}
+	%Licen√ßa: Esta imagem, ou texto mostrado nela, consiste somente de 
+% simples formas geom√©tricas ou texto. 
+	% Elas n√£o se encontram no limiar de originalidade necess√°rio para a 
+% prote√ß√£o de direitos autorais e por 
+	% isso est√£o em dom√≠nio p√∫blico. Embora seja livre de restri√ß√µes de 
 % direitos autorais, esta imagem ainda 
-	% pode estar sujeita a outras restriÁıes.
-
+	% pode estar sujeita a outras restri√ß√µes.
+     \hspace{0.15cm}\includegraphics[scale=0.19]{microsoft.png}
+	%Licen√ßa: Esta imagem, ou texto mostrado nela, consiste somente de 
+% simples formas geom√©tricas ou texto. 
+	% Elas n√£o se encontram no limiar de originalidade necess√°rio para a 
+% prote√ß√£o de direitos autorais e por 
+	% isso est√£o em dom√≠nio p√∫blico. Embora seja livre de restri√ß√µes de 
+% direitos autorais, esta imagem ainda 
+	% pode estar sujeita a outras restri√ß√µes.
 \end{frame}
 
 \begin{frame}
 	\frametitle{}
 	\begin{enumerate}
-	\item O que È Software Livre?\vspace{0.2cm}
-	\item O que È Software de CÛdigo Aberto?\vspace{0.2cm}
-	\item Quais s„o as diferenÁas e semelhanÁas entre os dois?\vspace{0.2cm}
-	\item Empresas est„o interessadas em FLOSS?\vspace{0.2cm}
-	\item Como vocÍ pode se beneficiar?
+	\item O que √© Software Livre?\vspace{0.2cm}
+	\item O que √© Software de C√≥digo Aberto?\vspace{0.2cm}
+	\item Quais s√£o as diferen√ßas e semelhan√ßas entre os dois?\vspace{0.2cm}
+	\item Empresas est√£o interessadas em FLOSS?\vspace{0.2cm}
+	\item Como voc√™ pode se beneficiar?
 	\end{enumerate}
 \end{frame}
 
@@ -156,7 +163,7 @@
 
 
 % \begin{frame}
-% 	\frametitle{Quem È esse?}
+% 	\frametitle{Quem √© esse?}
 % 	\begin{figure}
 % 	\begin{center}
 % 	\includegraphics[scale=0.9]{rms.jpg}\\
@@ -166,17 +173,17 @@
 %     % Copyright by Victor Powell
 %     % http://en.wikipedia.org/wiki/File:Rms_at_pitt.jpg
 %     
-%     % Criador do conceito de Software Livre e da Free Software Foundation, alÈm
+%     % Criador do conceito de Software Livre e da Free Software Foundation, al√©m
 %     % de desenvolvedor do GCC e do GNU Emacs. 
 % 	\end{center}
 % 	\end{figure}
 % \end{frame}
 
 \begin{frame}
-	\frametitle{O que È Software Livre?}
+	\frametitle{O que √© Software Livre?}
 	\begin{block}{Ideologicamente}
 		  \begin{itemize}
-		    \item Software cujos usu·rios tÍm liberdade para 
+		    \item Software cujos usu√°rios t√™m liberdade para 
 		    \begin{itemize}
 		      \item executar
 		      \item copiar
@@ -187,10 +194,10 @@
 		    \end{itemize}
 		    %\pause
 		    \vspace{0.2cm}
-		    \item Usu·rios \tred{controlam} os programas e n„o o 
-contr·rio
-		    \item {\bf Premissa b·sica}: \bgreen{liberdade} È uma 
-\bgreen{coisa boa} para indivÌduos e sociedade		    
+		    \item Usu√°rios \tred{controlam} os programas e n√£o o 
+contr√°rio
+		    \item {\bf Premissa b√°sica}: \bgreen{liberdade} √© uma 
+\bgreen{coisa boa} para indiv√≠duos e sociedade		    
 %But the ideological basis of free software is the idea that these freedoms are 
 %inherently good (or at least good 
 %for important political reasons external to technical questions of software 
@@ -211,30 +218,30 @@ Social}}
 
 
 \begin{frame}
-	\frametitle{O que È Software Livre?}
+	\frametitle{O que √© Software Livre?}
 	\begin{block}{Estritamente falando}
-	      Um programa È {\bf livre} se seus usu·rios tÍm as 4 liberdades 
+	      Um programa √© {\bf livre} se seus usu√°rios t√™m as 4 liberdades 
 essenciais:%\pause
 		  \begin{enumerate}
   		    \item[0] Liberdade de \tred{executar} o programa, para 
 qualquer fim.\vspace{0.1cm}%\pause
 		    \item[1] Liberdade para \tred{estudar} o funcionamento do 
-programa e \tred{modific·-lo} para fazer o que vocÍ 
+programa e \tred{modific√°-lo} para fazer o que voc√™ 
 \tred{desejar}.\vspace{0.2cm}%\pause
-		    \item[2] Liberdade para \tred{redistribuir} cÛpias. 
+		    \item[2] Liberdade para \tred{redistribuir} c√≥pias. 
 \vspace{0.1cm}
 		      \begin{itemize}
-		      \item Assim, vocÍ ajuda seu vizinho. \vspace{0.1cm}%\pause
+		      \item Assim, voc√™ ajuda seu vizinho. \vspace{0.1cm}%\pause
 		      \end{itemize}
-		    \item[3] Liberdade para \tred{distribuir} cÛpias de suas 
-\tred{versıes modificadas}.
+		    \item[3] Liberdade para \tred{distribuir} c√≥pias de suas 
+\tred{vers√µes modificadas}.
 		      \begin{itemize}
 		      \item Assim, a comunidade toda se beneficia com suas 
-modificaÁıes.
+modifica√ß√µes.
 		      \end{itemize}
 		  \end{enumerate}
 		   \vspace{0.1cm}%\pause
-		  \bgreen{Acesso ao cÛdigo fonte} È precondiÁ„o para as 
+		  \bgreen{Acesso ao c√≥digo fonte} √© precondi√ß√£o para as 
 liberdades 1 e 3.
 		  % Originalmente: %
 			%The freedom to run the program, for any purpose 
@@ -259,19 +266,19 @@ liberdades 1 e 3.
 
 
 \begin{frame}
-	\frametitle{O que È Software Livre?}
+	\frametitle{O que √© Software Livre?}
 	\begin{block}{Legalmente}
 		  \begin{itemize}
-		    \item Software \textbf{distribuÌdo} de acordo com uma 
-\bred{\bf licenÁa} que respeita as 4 liberdades
+		    \item Software \textbf{distribu√≠do} de acordo com uma 
+\bred{\bf licen√ßa} que respeita as 4 liberdades
 		  \end{itemize}
-% As quatro liberdades essenciais tÍm que ser garantidas pela LICEN«A do 
-%programa. Por isso licenÁas s„o t„o
-% importantes quando se fala em Software Livre. Simplesmente tornar disponÌvel 
-%um programa sem licenÁa n„o
-% implica em ele ser livre. Na verdade, n„o implica nem em ser domÌnio p˙blico. 
-%Todo programa È propriet·rio, 
-% na ausÍncia de uma licenÁa que diga explicitamente que n„o È. Isso ocorre 
+% As quatro liberdades essenciais t√™m que ser garantidas pela LICEN√áA do 
+%programa. Por isso licen√ßas s√£o t√£o
+% importantes quando se fala em Software Livre. Simplesmente tornar dispon√≠vel 
+%um programa sem licen√ßa n√£o
+% implica em ele ser livre. Na verdade, n√£o implica nem em ser dom√≠nio p√∫blico. 
+%Todo programa √© propriet√°rio, 
+% na aus√™ncia de uma licen√ßa que diga explicitamente que n√£o √©. Isso ocorre 
 %porque a lei de direito autoral 
 % aplica-se a ele automaticamente. 
 		  
@@ -287,12 +294,12 @@ liberdades 1 e 3.
 	\begin{figure}
 	\includegraphics[scale=0.5]{lgpl3.png}\\
     % Fonte: http://www.gnu.org/graphics/lgplv3-147x51.png
-    %LicenÁa: Creative Commons Attribution-NoDerivs 3.0 United States License.
+    %Licen√ßa: Creative Commons Attribution-NoDerivs 3.0 United States License.
 	\end{figure}
 	\begin{figure}
 	\includegraphics[scale=0.5]{gpl3.png}\\
     %Fonte: http://www.gnu.org/graphics/gplv3-127x51.png
-    %LicenÁa: Creative Commons Attribution-NoDerivs 3.0 United States License.
+    %Licen√ßa: Creative Commons Attribution-NoDerivs 3.0 United States License.
 	\end{figure}
 \end{column}
 \end{columns}	
@@ -300,12 +307,12 @@ liberdades 1 e 3.
 
 
 \begin{frame}
-	\frametitle{Este programa È software Livre?}
-	% N√O. LicenÁa 
-%propriet·ria com v·rias restriÁıes de uso e distribuiÁ„o.
+	\frametitle{Este programa √© software Livre?}
+	% N√ÉO. Licen√ßa 
+%propriet√°ria com v√°rias restri√ß√µes de uso e distribui√ß√£o.
 	\begin{figure}
 	\includegraphics[scale=0.60]{windows8.jpg}\\
-   %LicenÁa: Microsoft product screen shot, used with permission from 
+   %Licen√ßa: Microsoft product screen shot, used with permission from 
    %Microsoft. This image is a copyrighted screen shot of a 
    %commercially-released computer software product of Microsoft Corporation. 
    %Microsoft Corporation has allowed screen shots of its commercially-released 
@@ -317,55 +324,55 @@ liberdades 1 e 3.
 \end{frame}
 
 \begin{frame}
-	\frametitle{Este programa È software Livre?}
+	\frametitle{Este programa √© software Livre?}
 	% SIM. Utiliza a GPL v2, que
-	%alÈm de livre, È uma licenÁa de copyleft.
+	%al√©m de livre, √© uma licen√ßa de copyleft.
 	\begin{figure}
 	\includegraphics[scale=0.45]{tux.png}\\
 	%Fonte: http://en.wikipedia.org/wiki/File:Tux.png
-    %LicenÁa: O dono do copyright da imagem permite que seja usada por qualquer 
-    %um para qualquer propÛsito, portanto que
-    % sejam dados crÈditos a Larry Ewing (lewing@isc.tamu.edu) e The GIMP 
-    %se alguÈm perguntar.
+    %Licen√ßa: O dono do copyright da imagem permite que seja usada por qualquer 
+    %um para qualquer prop√≥sito, portanto que
+    % sejam dados cr√©ditos a Larry Ewing (lewing@isc.tamu.edu) e The GIMP 
+    %se algu√©m perguntar.
 	\end{figure}	
 \end{frame}
 
 \begin{frame}
-	\frametitle{Este programa È software Livre?}
-	% N√O, apesar de ser
-	%gratuito. O cÛdigo fonte n„o est· disponÌvel, o que 
+	\frametitle{Este programa √© software Livre?}
+	% N√ÉO, apesar de ser
+	%gratuito. O c√≥digo fonte n√£o est√° dispon√≠vel, o que 
 	% restringe as liberdades 1 e 3.
 	\begin{figure}
 	\includegraphics[scale=0.45]{avast.png}\\[0.2cm]
-	(considerando apenas a vers„o gratuita)
+	(considerando apenas a vers√£o gratuita)
 	%Fonte: http://en.wikipedia.org/wiki/File:Avast-2010-Logo.svg
-    %LicenÁa: Copyright pertence ‡ Avast Software. Uso para fins educacionais e 
-    %n„o-comerciais com uma figura de
-    % baixa resoluÁ„o È PROVAVELMENTE considerando um uso justo (fair use) de 
+    %Licen√ßa: Copyright pertence √† Avast Software. Uso para fins educacionais e 
+    %n√£o-comerciais com uma figura de
+    % baixa resolu√ß√£o √© PROVAVELMENTE considerando um uso justo (fair use) de 
     %acordo com a lei americana.
 	\end{figure}	
 \end{frame}
 
 
-\section{CÛdigo Aberto}	
-\subsection{CÛdigo Aberto}	
+\section{C√≥digo Aberto}	
+\subsection{C√≥digo Aberto}	
 
 \begin{frame}
 \vspace{0.2cm}
 \begin{center}
-\Huge{Software de CÛdigo Aberto}
+\Huge{Software de C√≥digo Aberto}
 \end{center}
 \end{frame}
 
 % \begin{frame}
-% 	\frametitle{Quem s„o esses dois?}
+% 	\frametitle{Quem s√£o esses dois?}
 % 
 % 	\begin{columns}
 % \begin{column}[l]{4.5cm}
 % 	\begin{figure}
 % 	\includegraphics[scale=0.3]{esr.jpg}\\
 % % Eric S. Raymond
-% % DomÌnio p˙blico
+% % Dom√≠nio p√∫blico
 % % http://pt.wikipedia.org/wiki/Ficheiro:Esr.jpg
 % 	\end{figure}
 % \end{column}
@@ -373,15 +380,15 @@ liberdades 1 e 3.
 % 	\begin{figure}
 % 	\includegraphics[scale=0.75]{perens.jpg}\\
 % % Bruce Perens
-% % Copyright held by Bruce Perens. Foto de divulgaÁ„o.
+% % Copyright held by Bruce Perens. Foto de divulga√ß√£o.
 % % http://www.perens.com/press/photos/HeadAndShoulders.jpg
-% % Perens foi quem escreveu a DefiniÁ„o de CÛdigo Aberto e, durante algum tempo 
-% % (entre abril de 1996 e dezembro de 1997), foi o respons·vel
-% % pelo projeto Debian (iniciado por Ian Murdock). A DefiniÁ„o de CÛdigo Aberto
-% % È praticamente uma cÛpia das Debian Free Software Guidelines 
+% % Perens foi quem escreveu a Defini√ß√£o de C√≥digo Aberto e, durante algum tempo 
+% % (entre abril de 1996 e dezembro de 1997), foi o respons√°vel
+% % pelo projeto Debian (iniciado por Ian Murdock). A Defini√ß√£o de C√≥digo Aberto
+% % √© praticamente uma c√≥pia das Debian Free Software Guidelines 
 % % (http://en.wikipedia.org/wiki/Debian_Free_Software_Guidelines).
 % % Eric Raymond escreveu  The Cathedral and the Bazaar, um dos pontos de partida 
-% % do movimento Open Source. … um dos mais famosos advogados desse movimento.
+% % do movimento Open Source. √â um dos mais famosos advogados desse movimento.
 % 	\end{figure}
 % \end{column}
 % \end{columns}	
@@ -390,9 +397,9 @@ liberdades 1 e 3.
 % \end{frame}
 
 \begin{frame}
-	\frametitle{O que È Software de CÛdigo Aberto?} 
+	\frametitle{O que √© Software de C√≥digo Aberto?} 
 	\begin{block}{\sout{Ideologicamente}}
-    O foco do movimento Open Source \bgreen{{\em {\bf n„o È ideolÛgico}}}.
+    O foco do movimento Open Source \bgreen{{\em {\bf n√£o √© ideol√≥gico}}}.
  	\end{block}
 	%\pause
 \begin{columns}
@@ -402,9 +409,9 @@ liberdades 1 e 3.
 		    \item \tred{``Campanha de Marketing''} em prol do Software 
 Livre\vspace{0.1cm}
 		    \begin{itemize}
-		    \item Com foco em vantagens pr·ticas\vspace{0.1cm}
-		    \item Sem viÈs ideolÛgico\vspace{0.1cm}
-		    \item Para chamar a atenÁ„o de grandes corporaÁıes 
+		    \item Com foco em vantagens pr√°ticas\vspace{0.1cm}
+		    \item Sem vi√©s ideol√≥gico\vspace{0.1cm}
+		    \item Para chamar a aten√ß√£o de grandes corpora√ß√µes 
 		    \end{itemize}
 		  \end{itemize}
 	\end{block}
@@ -412,18 +419,18 @@ Livre\vspace{0.1cm}
 
 \begin{column}[c]{3.5cm}
 	\begin{figure}
-	\includegraphics[scale=0.35]{super_timor.png}\\
+%	\includegraphics[scale=0.35]{super_timor.png}\\
     %Fonte: http://pt.wikipedia.org/wiki/Ficheiro:Copyleft.svg
-    %LicenÁa: domÌnio p˙blico.
+    %Licen√ßa: dom√≠nio p√∫blico.
 	\end{figure}
 \end{column}
 \end{columns}	
 \end{frame}
 
 \begin{frame}
-	\frametitle{Por que ``CÛdigo Aberto''? }
+	\frametitle{Por que ``C√≥digo Aberto''? }
     \begin{itemize}
-    \item A palavra ``free'' em \textit{Free Software} È problem·tica
+    \item A palavra ``free'' em \textit{Free Software} √© problem√°tica
       \begin{itemize}
         \item \textit{``Free as in freedom, not free beer''}
        \end{itemize} 
@@ -434,11 +441,11 @@ Livre\vspace{0.1cm}
 %http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/000000/00000/1000/6
 %0 0/1676/1676.strip.gif
     %Fonte: http://dilbert.com/strips/comic/2007-08-03/
-    %Para construir os slides, È necess·rio renomear a imagem e mudar seu 
+    %Para construir os slides, √© necess√°rio renomear a imagem e mudar seu 
 %formato para .jpg.
     %Note que o termo de uso da imagem (reproduzido parcialmente abaixo) permite 
 %que ela seja
-    %empregada para uso pessoal e n„o-comercial. 
+    %empregada para uso pessoal e n√£o-comercial. 
     %Termos de uso: Universal Uclick grants you a limited, personal,  
 %non-exclusive, non-commercial, revocable, non-assignable and non-transferable 
 %license to download, view and/or play one copy of the Materials (excluding 
@@ -470,12 +477,12 @@ Livre\vspace{0.1cm}
 %engine or internet browser usage).
 	\end{figure}
     \begin{itemize}
-    \item Com ``CÛdigo Aberto'' a Ínfase fica em algo mais palp·vel, o cÛdigo
-% Vale ressaltar que muitos tambÈm criticam o termo ``CÛdigo aberto''. O motivo 
-%È que esse 
-% termo sugere que software de cÛdigo aberto È simplesmente software cujo cÛdigo 
-%fonte È acessÌvel.
-% Essa È uma noÁ„o intuitiva, mas errada. 
+    \item Com ``C√≥digo Aberto'' a √™nfase fica em algo mais palp√°vel, o c√≥digo
+% Vale ressaltar que muitos tamb√©m criticam o termo ``C√≥digo aberto''. O motivo 
+%√© que esse 
+% termo sugere que software de c√≥digo aberto √© simplesmente software cujo c√≥digo 
+%fonte √© acess√≠vel.
+% Essa √© uma no√ß√£o intuitiva, mas errada. 
     \end{itemize}
 
 \end{frame}
@@ -483,86 +490,94 @@ Livre\vspace{0.1cm}
 \begin{frame}
 	\frametitle{\textit{Open source doesn't just mean access to the source 
 code}}
-	\begin{block}{Pr·ticas}
+	\begin{block}{Pr√°ticas}
     \begin{enumerate}
-      \item Desenvolvimento distribuÌdo %\pause
-      \item DepuraÁ„o em massa, com usu·rios envolvidos no desenvolvimento 
+      \item Desenvolvimento distribu√≠do %\pause
+      \item Depura√ß√£o em massa, com usu√°rios envolvidos no desenvolvimento 
 %\pause
-      % Para fins de depuraÁ„o mas tambÈm atravÈs de solicitaÁıes de 
+      % Para fins de depura√ß√£o mas tamb√©m atrav√©s de solicita√ß√µes de 
       % funcionalidades e de
-      % feedback sobre caracterÌsticas n„o-funcionais do programa.  
-      \item Software disponÌvel cedo e frequentemente %\pause
+      % feedback sobre caracter√≠sticas n√£o-funcionais do programa.  
+      \item Software dispon√≠vel cedo e frequentemente %\pause
       \item Meritocracia %\pause
-      \item Sem uma hierarquia rÌgida e sem coerÁ„o
-      %Mas com um lÌder, pelo menos no inÌcio.
-      \item Abertura do cÛdigo fonte È uma prÈ-condiÁ„o
+      \item Sem uma hierarquia r√≠gida e sem coer√ß√£o
+      %Mas com um l√≠der, pelo menos no in√≠cio.
+      \item Abertura do c√≥digo fonte √© uma pr√©-condi√ß√£o
     \end{enumerate}
  	\end{block}
 \end{frame}
 
 
 \begin{frame}
-	\frametitle{Software de CÛdigo Aberto tambÈm tem uma definiÁ„o}
+	\frametitle{Software de C√≥digo Aberto tamb√©m tem uma defini√ß√£o}
 	\begin{figure}
 	\includegraphics[scale=0.35]{osd.png}\\
     %Fonte: http://opensource.org/osd
-    %LicenÁa: Creative Commons Attribution
+    %Licen√ßa: Creative Commons Attribution
 	\end{figure}
 
 	\end{frame}
 
 \begin{frame}
-	\frametitle{``Open Source'' È mais popular que ``Free Software''}
-	% A idÈia de usar software de cÛdigo aberto como uma ``Campanha de {\em 
+	\frametitle{``Open Source'' √© mais popular que ``Free Software''}
+	% A id√©ia de usar software de c√≥digo aberto como uma ``Campanha de {\em 
 % marketing}'' para 
 	\begin{figure}
 	\begin{center}
-	% Todas as imagens mencionadas abaixo foram tiradas das p·ginas da 
-% Wikipedia que descrevem as respectivas organizaÁıes.
+	% Todas as imagens mencionadas abaixo foram tiradas das p√°ginas da 
+% Wikipedia que descrevem as respectivas organiza√ß√µes.
 	\includegraphics[scale=0.20]{redhat.png}
-	%LicenÁa: Copyright pertence ‡ Red Hat, Inc. Uso para fins educacionais 
-% e n„o-comerciais com uma figura de
-    % baixa resoluÁ„o È PROVAVELMENTE considerando um uso justo (fair use) de 
+	%Licen√ßa: Copyright pertence √† Red Hat, Inc. Uso para fins educacionais 
+% e n√£o-comerciais com uma figura de
+    % baixa resolu√ß√£o √© PROVAVELMENTE considerando um uso justo (fair use) de 
 % acordo com a lei americana.
+	\includegraphics[scale=0.10]{google.png}
+	%Licen√ßa: Esta imagem, ou texto mostrado nela, consiste somente de 
+% simples formas geom√©tricas ou texto. 
+	% Elas n√£o se encontram no limiar de originalidade necess√°rio para a 
+% prote√ß√£o de direitos autorais e por 
+	% isso est√£o em dom√≠nio p√∫blico. Embora seja livre de restri√ß√µes de 
+% direitos autorais, esta imagem ainda 
+	% pode estar sujeita a outras restri√ß√µes.
 	\hspace{0.15cm}\includegraphics[scale=0.20]{microsoft.png} \\[0.3cm]
-	%LicenÁa: Esta imagem, ou texto mostrado nela, consiste somente de 
-% simples formas geomÈtricas ou texto. 
-	% Elas n„o se encontram no limiar de originalidade necess·rio para a 
-% proteÁ„o de direitos autorais e por 
-	% isso est„o em domÌnio p˙blico. Embora seja livre de restriÁıes de 
+	%Licen√ßa: Esta imagem, ou texto mostrado nela, consiste somente de 
+% simples formas geom√©tricas ou texto. 
+	% Elas n√£o se encontram no limiar de originalidade necess√°rio para a 
+% prote√ß√£o de direitos autorais e por 
+	% isso est√£o em dom√≠nio p√∫blico. Embora seja livre de restri√ß√µes de 
 % direitos autorais, esta imagem ainda 
-	% pode estar sujeita a outras restriÁıes.
+	% pode estar sujeita a outras restri√ß√µes.
 	\hspace{0.15cm}\includegraphics[scale=0.20]{oracle.png}
-	%LicenÁa: Esta imagem, ou texto mostrado nela, consiste somente de 
-% simples formas geomÈtricas ou texto. 
-	% Elas n„o se encontram no limiar de originalidade necess·rio para a 
-% proteÁ„o de direitos autorais e por 
-	% isso est„o em domÌnio p˙blico. Embora seja livre de restriÁıes de 
+	%Licen√ßa: Esta imagem, ou texto mostrado nela, consiste somente de 
+% simples formas geom√©tricas ou texto. 
+	% Elas n√£o se encontram no limiar de originalidade necess√°rio para a 
+% prote√ß√£o de direitos autorais e por 
+	% isso est√£o em dom√≠nio p√∫blico. Embora seja livre de restri√ß√µes de 
 % direitos autorais, esta imagem ainda 
-	% pode estar sujeita a outras restriÁıes.
+	% pode estar sujeita a outras restri√ß√µes.
 	\hspace{0.15cm}\includegraphics[scale=0.15]{ibm.png}\\[0.3cm]
-	%LicenÁa: Esta imagem, ou texto mostrado nela, consiste somente de 
-% simples formas geomÈtricas ou texto. 
-	% Elas n„o se encontram no limiar de originalidade necess·rio para a 
-% proteÁ„o de direitos autorais e por 
-	% isso est„o em domÌnio p˙blico. Embora seja livre de restriÁıes de 
+	%Licen√ßa: Esta imagem, ou texto mostrado nela, consiste somente de 
+% simples formas geom√©tricas ou texto. 
+	% Elas n√£o se encontram no limiar de originalidade necess√°rio para a 
+% prote√ß√£o de direitos autorais e por 
+	% isso est√£o em dom√≠nio p√∫blico. Embora seja livre de restri√ß√µes de 
 % direitos autorais, esta imagem ainda 
-	% pode estar sujeita a outras restriÁıes.
+	% pode estar sujeita a outras restri√ß√µes.
 	\includegraphics[scale=0.15]{mysql.png}
-	%LicenÁa: Copyright pertence ‡ Red Hat, Inc. Uso para fins educacionais 
-% e n„o-comerciais com uma figura de
-    % baixa resoluÁ„o È PROVAVELMENTE considerando um uso justo (fair use) de 
+	%Licen√ßa: Copyright pertence √† Red Hat, Inc. Uso para fins educacionais 
+% e n√£o-comerciais com uma figura de
+    % baixa resolu√ß√£o √© PROVAVELMENTE considerando um uso justo (fair use) de 
 % acordo com a lei americana.
-	\hspace{0.2cm}\includegraphics[scale=0.15]{novell.png}
-	%LicenÁa: Esta imagem, ou texto mostrado nela, consiste somente de 
-% simples formas geomÈtricas ou texto. 
-	% Elas n„o se encontram no limiar de originalidade necess·rio para a 
-% proteÁ„o de direitos autorais e por 
-	% isso est„o em domÌnio p˙blico. Embora seja livre de restriÁıes de 
+	\hspace{0.2cm}\includegraphics[scale=0.15]{apple_logo.png}
+	%Licen√ßa: Esta imagem, ou texto mostrado nela, consiste somente de 
+% simples formas geom√©tricas ou texto. 
+	% Elas n√£o se encontram no limiar de originalidade necess√°rio para a 
+% prote√ß√£o de direitos autorais e por 
+	% isso est√£o em dom√≠nio p√∫blico. Embora seja livre de restri√ß√µes de 
 % direitos autorais, esta imagem ainda 
-	% pode estar sujeita a outras restriÁıes.
-	\hspace{0.2cm}\includegraphics[scale=0.15]{mozilla.png}\\
-	% LicenÁa: This file contains a logo for a Mozilla product (such as the 
+	% pode estar sujeita a outras restri√ß√µes.
+	\hspace{0.2cm}\includegraphics[scale=0.22]{mozilla.png}\\
+	% Licen√ßa: This file contains a logo for a Mozilla product (such as the 
 % Firefox browser or the Mozilla Thunderbird email client) and is protected by 
 % copyright and/or trademark by the Mozilla Foundation and/or its subsidiary 
 % Mozilla Corporation. According to the Mozilla trademark policy, the logo is free 
@@ -571,31 +586,31 @@ code}}
 	\end{center}
 	\end{figure}
 
-	% Resultado de uma busca r·pida na MSDN.com (brasileira): 
-	% "software livre" (assim, entre aspas) resultou em 143 ocorrÍncias
-	% enquanto "cÛdigo aberto"  produziu 10.500 ocorrÍncias.
+	% Resultado de uma busca r√°pida na MSDN.com (brasileira): 
+	% "software livre" (assim, entre aspas) resultou em 143 ocorr√™ncias
+	% enquanto "c√≥digo aberto"  produziu 10.500 ocorr√™ncias.
 \end{frame}
 
-\section{DiferenÁas e SemelhanÁas}	
-\subsection{DiferenÁas e SemelhanÁas}	
+\section{Diferen√ßas e Semelhan√ßas}	
+\subsection{Diferen√ßas e Semelhan√ßas}	
 
 \begin{frame}
 \vspace{0.2cm}
 \begin{center}
-\Huge{DiferenÁas e SemelhanÁas entre FS e OSS}
+\Huge{Diferen√ßas e Semelhan√ßas entre FS e OSS}
 \end{center}
 
 \end{frame}
 
 
 \begin{frame}
-	\frametitle{Em pouquÌssimas palavras...}
+	\frametitle{Em pouqu√≠ssimas palavras...}
 	
 \begin{center}
-\huge{A democracia È um direito moral} \\[0.2cm]
+\huge{A democracia √© um direito moral} \\[0.2cm]
 %\pause
 \large{vs}\\[0.2cm]
-\huge{A democracia È o sistema mais eficiente que se conhece}
+\huge{A democracia √© o sistema mais eficiente que se conhece}
 \end{center}
 
 \end{frame}
@@ -604,14 +619,14 @@ code}}
 \frametitle{Pragmaticamente}
 \begin{center}
 \begin{itemize}
-\item \vspace{0.1cm} Pr·ticas {\bf indistinguÌveis}
+\item \vspace{0.1cm} Pr√°ticas {\bf indistingu√≠veis}
 \begin{itemize}
-\item Principalmente apÛs ``The Cathedral and the Bazaar''\vspace{0.1cm}
+\item Principalmente ap√≥s ``The Cathedral and the Bazaar''\vspace{0.1cm}
 % Inicialmente, todo o texto de The Cathedral and the Bazaar utilizava o termo  
  
 %``Free Software''. Em fevereiro de 1998, mais ou menos quando o termo ``Open 
 %Source'' foi cunhado, Raymond substituiu no ensaio todos os usos de ``free 
-%software'' por ``open source software''. Est· no histÛrico de revisıes do 
+%software'' por ``open source software''. Est√° no hist√≥rico de revis√µes do 
 %ensaio, em 
 %http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/.
 \end{itemize}
@@ -620,16 +635,16 @@ code}}
 	\begin{figure}
 	\includegraphics[scale=0.9]{mushrooms.jpg}\\
 %Fonte:http://1.bp.blogspot.com/_AfREl8pzzjU/TMihEUC6ZSI/AAAAAAAAAqg/syZHsStPOpg/s1600/Super+Mario+World+-+Set02.jpg
-	%InformaÁ„o de copyright incluÌda na prÛpria imagem.
+	%Informa√ß√£o de copyright inclu√≠da na pr√≥pria imagem.
 	\end{figure}
 \
 \end{itemize}
 \end{center}
 % \begin{block}{Em termos de licenceamento}
 % \begin{itemize}
-% \item Todo programa \bgreen{livre} È de \byellow{cÛdigo 
+% \item Todo programa \bgreen{livre} √© de \byellow{c√≥digo 
 % aberto}\vspace{0.1cm}%\pause
-% \item Todo programa de \byellow{cÛdigo aberto} È \bgreen{livre}?
+% \item Todo programa de \byellow{c√≥digo aberto} √© \bgreen{livre}?
 % \end{itemize}
 % \end{block}
 \end{frame}
@@ -646,7 +661,7 @@ code}}
 %     % 
 % http://www.opensource.org/trademarks/opensource/OSI-Approved-License-100x137.png
 %     % Copyright OpenSourceInitiative
-%     % LicenÁa:  Creative Commons Attribution 2.5 License
+%     % Licen√ßa:  Creative Commons Attribution 2.5 License
 % 	\end{center}
 % 	\end{figure}%\pause \vspace{0.1cm}
 % 	{\footnotesize \textit{``The NASA Open Source Agreement, version 1.3, is 
@@ -654,49 +669,49 @@ code}}
 % be your `{\em original creation}'.''}}
 % 	% Fonte: http://www.gnu.org/licenses/license-list.html
 % 
-% % Que liberdade a restriÁ„o mencionada nesse texto da FSF fere? 
-% % Fere algum critÈrio da OSD?
+% % Que liberdade a restri√ß√£o mencionada nesse texto da FSF fere? 
+% % Fere algum crit√©rio da OSD?
 % \end{center}
 % \end{frame}
 
-\section{Aspectos EconÙmicos}	
-\subsection{Aspectos EconÙmicos}	
+\section{Aspectos Econ√¥micos}	
+\subsection{Aspectos Econ√¥micos}	
 
 \begin{frame}
 \vspace{0.2cm}
 \begin{center}
-\Huge{Aspectos EconÙmicos de Software Livre e de CÛdigo Aberto}
+\Huge{Aspectos Econ√¥micos de Software Livre e de C√≥digo Aberto}
 \end{center}
 
 \end{frame}
 
 
 \begin{frame}
-	\frametitle{Eu posso vender software livre? E de cÛdigo aberto?}
+	\frametitle{Eu posso vender software livre? E de c√≥digo aberto?}
 	%\pause
 Resposta curta: \textbf{SIM!}
 %\pause
 \vspace{0.3cm}
-\begin{block}{Na pr·tica}
+\begin{block}{Na pr√°tica}
 \begin{itemize}
-\item N„o faz sentido%\pause
-%Software Livre => N„o poder {\bf cobrar}  por software? 
-%N„o, mas implica em formas diferentes de se cobrar. Como usu·rios s„o livres  
-%(ou seja, sem restriÁıes de qualquer natureza) para distribuir o sistema, em 
-%teoria, depois que uma ˙nica pessoa pagasse o preÁo para obter uma cÛpia de um 
+\item N√£o faz sentido%\pause
+%Software Livre => N√£o poder {\bf cobrar}  por software? 
+%N√£o, mas implica em formas diferentes de se cobrar. Como usu√°rios s√£o livres  
+%(ou seja, sem restri√ß√µes de qualquer natureza) para distribuir o sistema, em 
+%teoria, depois que uma √∫nica pessoa pagasse o pre√ßo para obter uma c√≥pia de um 
 %sistema, poderia redistribui-la para quem quisesse, o que quebra o esquema de 
 %licenciamento por uso adotado para muitos sistemas de software comerciais. e
-%LicenÁas do tipo "pagar pelo direito de usar em uma m·quina", como no Windows, 
+%Licen√ßas do tipo "pagar pelo direito de usar em uma m√°quina", como no Windows, 
  
-%ou do tipo "livre para uso n„o-comercial" intrinsecamente ferem as quatro 
+%ou do tipo "livre para uso n√£o-comercial" intrinsecamente ferem as quatro 
 %liberdades e os Itens 1, 5 e 6 da OSD. 
-%Mais informaÁıes: http://www.gnu.org/philosophy/selling.html 
-\item E cobrar por instalaÁıes em m·quinas, pode?%\pause
-%Sim, mas n„o pode exigir que todos paguem ;), pelo mesmo motivo que n„o faz 
-%sentido vender programas (veja acima). Feriria v·rias liberdades e os Itens 1, 
+%Mais informa√ß√µes: http://www.gnu.org/philosophy/selling.html 
+\item E cobrar por instala√ß√µes em m√°quinas, pode?%\pause
+%Sim, mas n√£o pode exigir que todos paguem ;), pelo mesmo motivo que n√£o faz 
+%sentido vender programas (veja acima). Feriria v√°rias liberdades e os Itens 1, 
 %5 e 6 da OSD.
 \item Restringir uso comercial?
-%N„o. Veja acima.
+%N√£o. Veja acima.
 \end{itemize}
 \end{block}
 
@@ -707,15 +722,15 @@ Resposta curta: \textbf{SIM!}
 	\begin{columns}
 	\begin{column}[c]{6cm} 
     \begin{enumerate}
-      \item Boa explicaÁ„o para os primÛrdios do OSS
+      \item Boa explica√ß√£o para os prim√≥rdios do OSS
         \begin{itemize}
-        \item Em particular, justifica a aÁ„o de \tgreen{volunt·rios} \vspace{0.2cm}
+        \item Em particular, justifica a a√ß√£o de \tgreen{volunt√°rios} \vspace{0.2cm}
         \end{itemize}\pause
-      \item N„o explica t„o bem o interesse de corporaÁıes
+      \item N√£o explica t√£o bem o interesse de corpora√ß√µes
         \begin{itemize}
         \item Economia de \tred{escassez}, teoricamente\vspace{0.2cm}
-        \item Por que \tred{gastar dinheiro} em algo disponÌvel gratuitamente?\vspace{0.2cm}
-        \item Por que alguÈm \tred{abriria} o cÛdigo do seu produto?
+        \item Por que \tred{gastar dinheiro} em algo dispon√≠vel gratuitamente?\vspace{0.2cm}
+        \item Por que algu√©m \tred{abriria} o c√≥digo do seu produto?
         \end{itemize}
     \end{enumerate}
     \end{column}
@@ -724,7 +739,7 @@ Resposta curta: \textbf{SIM!}
 	\begin{center}
  	\includegraphics[scale=0.3]{gift_economy.jpg}\\[0.1cm]
 	{\small Um \textit{potlach} dos Kwakwaka'wakw}
-	% LicenÁa: domÌnio p˙blico
+	% Licen√ßa: dom√≠nio p√∫blico
 	% http://en.wikipedia.org/wiki/File:Edward_Curtis_Image_005.jpg
 	% Autor: Edward S. Curtis
 	% Edward Curtis photo of a Kwakwaka'wakw potlatch with dancers and singers. Kwakwaka'wakw people in a 
@@ -742,29 +757,38 @@ Resposta curta: \textbf{SIM!}
     \begin{itemize}
       \item A IBM gastou, entre 1995 e 2005, US\$ 1bi no Linux
         \begin{itemize}
-        \item Para fins de desenvolvimento e promoÁ„o
+        \item Para fins de desenvolvimento e promo√ß√£o
         \end{itemize}\pause
       \vspace{0.2cm}
-      \item E, trÍs anos atr·s, anunciou o seguinte:
+      \item E, tr√™s anos atr√°s, anunciou o seguinte:
       
  	\begin{figure}
 	\begin{center}
- 	\includegraphics[scale=0.30]{ibm_invests.jpg}
-	% Algumas informaÁıes: http://www.businessinsider.com/ibm-to-spend-another-1-billion-on-linux-2013-9
+ 	\includegraphics[scale=0.30]{ibm_invests.png}
+	% Algumas informa√ß√µes: http://www.businessinsider.com/ibm-to-spend-another-1-billion-on-linux-2013-9
 	\end{center}
 	\end{figure}
      
     \end{itemize}
 \end{frame}
 
+\begin{frame}
+ 	\begin{figure}
+	\begin{center}
+ 	\includegraphics[scale=0.30]{oss_contributors}
+	% Fonte: https://medium.freecodecamp.org/the-top-contributors-to-github-2017-be98ab854e87
+	\end{center}
+	\end{figure}
+\end{frame}
+
 
 \begin{frame}
 	\frametitle{\textit{Free as in free beer?}}
     \begin{itemize}
-      \item A Oracle (graÁas a \textbf{aquisiÁıes}) \tred{era} dona, em 2010, de
-      % AquisiÁıes == ela gastou *muito* dinheiro. Talvez n„o tenha sido com o fim de se
-      % tornar propriet·ria desses produtos, mas foi o que aconteceu. 
-      % SÛ a compra da Sun custou US$ 5.6bi!
+      \item A Oracle (gra√ßas a \textbf{aquisi√ß√µes}) \tred{era} dona, em 2010, de
+      % Aquisi√ß√µes == ela gastou *muito* dinheiro. Talvez n√£o tenha sido com o fim de se
+      % tornar propriet√°ria desses produtos, mas foi o que aconteceu. 
+      % S√≥ a compra da Sun custou US$ 5.6bi!
         \begin{itemize}
         \item MySQL
         \item Java
@@ -778,17 +802,17 @@ Resposta curta: \textbf{SIM!}
         \item E \textbf{abriu ele}, via projeto Chromium
         \item Incluindo o \textbf{engenho V8} para JavaScript
         % O engenho de Javascript do Chrome pode parecer um diferencial competitivo a ser protegido
-        % pelo Google, mas um exame mais cuidadoso mostra que o Google n„o obtÈm receita com engenhos para
-        % Javascript. Ao invÈs disso, comercializa diversos produtos e serviÁos que baseiam-se nessa 
-        % linguagem. Logo, tem interesse econÙmico na melhoria dos engenhos de Javascript de todos os 
-        % navegadores Web e n„o apenas no do Chrome. Isso justifica sua decis„o de abrir o cÛdigo do V8. 
-        % Ao mesmo tempo, a arquitetura do Chrome, mais confi·vel que a de outros browsers, tambÈm È algo 
-        % que interessa ao Google que todos conheÁam, j· que os principais produtos da empresa baseiam-se
-        % na Web e, quanto melhor for a experiÍncia de uso da Web, maior a chance de que o Google continue
+        % pelo Google, mas um exame mais cuidadoso mostra que o Google n√£o obt√©m receita com engenhos para
+        % Javascript. Ao inv√©s disso, comercializa diversos produtos e servi√ßos que baseiam-se nessa 
+        % linguagem. Logo, tem interesse econ√¥mico na melhoria dos engenhos de Javascript de todos os 
+        % navegadores Web e n√£o apenas no do Chrome. Isso justifica sua decis√£o de abrir o c√≥digo do V8. 
+        % Ao mesmo tempo, a arquitetura do Chrome, mais confi√°vel que a de outros browsers, tamb√©m √© algo 
+        % que interessa ao Google que todos conhe√ßam, j√° que os principais produtos da empresa baseiam-se
+        % na Web e, quanto melhor for a experi√™ncia de uso da Web, maior a chance de que o Google continue
         % lucrando em cima desses produtos.
         
-        % Em contrapartida, por que o Google nunca abriu o cÛdigo fonte de 
-        % seu engenho de busca? Resposta simples: porque È o seu principal
+        % Em contrapartida, por que o Google nunca abriu o c√≥digo fonte de 
+        % seu engenho de busca? Resposta simples: porque √© o seu principal
         % diferencial competitivo!
         \end{itemize}           
     \end{itemize}
@@ -812,20 +836,20 @@ Resposta curta: \textbf{SIM!}
 	% The Business of Free Software: Enterprise Incentives, Investment, and Motivation in the Open Source Community
 	% http://www.hbs.edu/research/pdf/07-028.pdf
 	% Autors: Marco Iansiti e Gregory L. Richards
-	% O que È interessante notar nessa figura È a irregularidade. Poucos projetos receberam muito dinheiro 
-	% enquanto a maioria recebeu muito menos. O gr·fico est· desatualizado e as informaÁıes s„o incompletas
-	% (por exemplo, o Google paga o Guido van Rossum para trabalhar em Python o tempo todo e certamente ele n„o È
-	% o ˙nico), mas ainda assim os dados fornecem uma boa idÈia sobre como o dinheiro È distribuÌdo. Isso sugere 
-	% que as corporaÁıes que investem esse dinheiro tem algum interesse especÌfico em determinados projetos FLOSS
-	% e que esse interesse n„o est· diretamente relacionado ‡ popularidade desses projetos, j· que v·rios projetos
-	% populares, como o GCC, n„o aparecem na figura.
+	% O que √© interessante notar nessa figura √© a irregularidade. Poucos projetos receberam muito dinheiro 
+	% enquanto a maioria recebeu muito menos. O gr√°fico est√° desatualizado e as informa√ß√µes s√£o incompletas
+	% (por exemplo, o Google paga o Guido van Rossum para trabalhar em Python o tempo todo e certamente ele n√£o √©
+	% o √∫nico), mas ainda assim os dados fornecem uma boa id√©ia sobre como o dinheiro √© distribu√≠do. Isso sugere 
+	% que as corpora√ß√µes que investem esse dinheiro tem algum interesse espec√≠fico em determinados projetos FLOSS
+	% e que esse interesse n√£o est√° diretamente relacionado √† popularidade desses projetos, j√° que v√°rios projetos
+	% populares, como o GCC, n√£o aparecem na figura.
 	\end{center}
 	\end{figure}
 \end{frame}
 
 \begin{frame}
-	\frametitle{Receita relacionada a FLOSS vs. receita por ·rea}
-	CorporaÁıes n„o tem fins humanit·rios... \pause
+	\frametitle{Receita relacionada a FLOSS vs. receita por √°rea}
+	Corpora√ß√µes n√£o tem fins humanit√°rios... \pause
 	\begin{figure}
 	\begin{center}
  	\includegraphics[scale=0.75]{receita_floss.jpg}\\[0.3cm]
@@ -858,22 +882,22 @@ Resposta curta: \textbf{SIM!}
 	{\small 
 	\begin{block}{Cada um desses smartphones...}	
 	\begin{itemize}
-	\item È um ponto de entrada para pessoas conectarem-se ‡ Internet;
+	\item √© um ponto de entrada para pessoas conectarem-se √† Internet;
     % e usar o Google! 
-    % Vale ressaltar que o Google adquiriu a Android Inc., empresa que comeÁou a desenvolver o Android pouco antes, l· por 2005. 
-    % Vale ressaltar que o a primeira vers„o do todo-poderoso iPhone sÛ foi lanÁada em 2007! 
-    % A primeira vers„o do Android saiu em 2008. 
+    % Vale ressaltar que o Google adquiriu a Android Inc., empresa que come√ßou a desenvolver o Android pouco antes, l√° por 2005. 
+    % Vale ressaltar que o a primeira vers√£o do todo-poderoso iPhone s√≥ foi lan√ßada em 2007! 
+    % A primeira vers√£o do Android saiu em 2008. 
 	\item funciona bem com as ferramentas do Google;
-	\item e coleta informaÁıes que o Google pode usar!
-	% Miss„o do Google: http://www.google.com/about/company/
-	% Mais informaÁıs a seguir:
-	% Por que o modelo de negÛcios do Google funciona: http://www.usnews.com/opinion/blogs/economic-intelligence/2013/06/25/why-googles-business-model-works
-	% Questıes legais: http://womeninbusiness.about.com/od/best-worst/a/What-Googles-New-Terms-Of-Service-Really-Mean-To-You-Part-2.htm 
+	\item e coleta informa√ß√µes que o Google pode usar!
+	% Miss√£o do Google: http://www.google.com/about/company/
+	% Mais informa√ß√µs a seguir:
+	% Por que o modelo de neg√≥cios do Google funciona: http://www.usnews.com/opinion/blogs/economic-intelligence/2013/06/25/why-googles-business-model-works
+	% Quest√µes legais: http://womeninbusiness.about.com/od/best-worst/a/What-Googles-New-Terms-Of-Service-Really-Mean-To-You-Part-2.htm 
 	\end{itemize}
 	\end{block}
 	}
 	\begin{block}{}
-	\textbf{Miss„o do Google:} \textit{... to organize the world's information and make it universally accessible and useful}.
+	\textbf{Miss√£o do Google:} \textit{... to organize the world's information and make it universally accessible and useful}.
 	\end{block}
 \end{frame}
 
@@ -884,16 +908,16 @@ Resposta curta: \textbf{SIM!}
  	% http://www.swift.org
     \begin{itemize}
       \item 5+ anos de desenvolvimento (primeiro \textit{commit} em 2010!)
-      \item \textit{open source um ano e meio depois de seu lanÁamento}
-% Uma discuss„o mais detalhada sobre porque Apple abriu Swift est· 
-% disponÌvel em: 
+      \item \textit{open source um ano e meio depois de seu lan√ßamento}
+% Uma discuss√£o mais detalhada sobre porque Apple abriu Swift est√° 
+% dispon√≠vel em: 
 % http://fernandocastor.github.io/general/2015/12/08/swift.html
     \end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{Fontes de receita da Apple}
- 	\includegraphics[scale=0.38]{apple_revenue.png}	
+ 	\includegraphics[scale=0.38]{apple_revenue.jpg}	
  	% Fonte: http://www.macrumors.com/2015/10/27/q4-2015-earnings/
 \end{frame}
 
@@ -901,23 +925,23 @@ Resposta curta: \textbf{SIM!}
 
 \begin{frame}
 	\frametitle{Dois pontos de vista complementares}
-	\begin{block}{Software pode ou n„o ser um diferencial de negÛcios}
+	\begin{block}{Software pode ou n√£o ser um diferencial de neg√≥cios}
 	\begin{enumerate}
-	\item Software livre n„o È a principal fonte de receita para IBM, HP, Google ou Apple\vspace{0.1cm}
-	\item Mas \textbf{ajuda a dividir custos e riscos} para produtos que \tred{n„o s„o um diferencial de negÛcios}\vspace{0.1cm}\pause
-	\item Se software n„o È a diferenciaÁ„o, È um centro de \textbf{\tred{custo}}, n„o de \tgreen{lucros}
-	% Esse È o motivo chave que leva v·rias organizaÁıes ligadas a software e hardware a investir em FLOSS.
+	\item Software livre n√£o √© a principal fonte de receita para IBM, HP, Google ou Apple\vspace{0.1cm}
+	\item Mas \textbf{ajuda a dividir custos e riscos} para produtos que \tred{n√£o s√£o um diferencial de neg√≥cios}\vspace{0.1cm}\pause
+	\item Se software n√£o √© a diferencia√ß√£o, √© um centro de \textbf{\tred{custo}}, n√£o de \tgreen{lucros}
+	% Esse √© o motivo chave que leva v√°rias organiza√ß√µes ligadas a software e hardware a investir em FLOSS.
 	\end{enumerate}
 	\end{block}
 
 	\begin{block}{Tecnologia meio vs. tecnologia fim}
 	\begin{enumerate}
 	\item Software pode ser uma tecnologia ``possibilitadora'' \vspace{0.1cm}
-	\item Desenvolvimento de software propriet·rio È uma \tred{minoria}
+	\item Desenvolvimento de software propriet√°rio √© uma \tred{minoria}
 	  \begin{itemize}
 	  \item Menos de 10\% das vagas para desenvolvimento de software\vspace{0.1cm}
-	  \item Mais de 70\% est„o em empresas que s„o ``usu·rias de TI''
-	  % Ou seja, s„o vagas para desenvolver software-meio e n„o software-fim.
+	  \item Mais de 70\% est√£o em empresas que s√£o ``usu√°rias de TI''
+	  % Ou seja, s√£o vagas para desenvolver software-meio e n√£o software-fim.
 	  \end{itemize}  
 	\end{enumerate}
 	\end{block}
@@ -925,21 +949,21 @@ Resposta curta: \textbf{SIM!}
 
 \begin{frame}
 	\frametitle{Se tiverem que aprender apenas uma coisa, aprendam isso}
-	{\Large Vale a pena abrir o cÛdigo para}\vspace{0.1cm}
+	{\Large Vale a pena abrir o c√≥digo para}\vspace{0.1cm}
 	\begin{enumerate}
-	\item software que \tred{n„o È um diferencial} de negÛcios\vspace{0.1cm}
-	\item software que È uma \tgreen{tecnologia possibilitadora} para v·rios negÛcios\vspace{0.1cm}
+	\item software que \tred{n√£o √© um diferencial} de neg√≥cios\vspace{0.1cm}
+	\item software que √© uma \tgreen{tecnologia possibilitadora} para v√°rios neg√≥cios\vspace{0.1cm}
 	\end{enumerate}
 	\vspace{0.2cm}\pause 
-	{\large Porque os custos e o risco do desenvolvimento s„o divididos}\vspace{0.2cm} \pause
-	{\large \bgreen{Software Livre} como parte de um modelo de negÛcios \tred{``puro''} n„o È comum}\vspace{0.2cm}
+	{\large Porque os custos e o risco do desenvolvimento s√£o divididos}\vspace{0.2cm} \pause
+	{\large \bgreen{Software Livre} como parte de um modelo de neg√≥cios \tred{``puro''} n√£o √© comum}\vspace{0.2cm}
 \end{frame}
 
 % 
 % \begin{frame}
 % \vspace{0.2cm}
 % \begin{center}
-% \Huge{Quem contribui com projetos de FLOSS e por quÍ?}
+% \Huge{Quem contribui com projetos de FLOSS e por qu√™?}
 % \end{center}
 % \end{frame}
 % 
@@ -947,14 +971,14 @@ Resposta curta: \textbf{SIM!}
 % \begin{frame}
 % 	\frametitle{Quem desenvolve FLOSS?}
 % 	\begin{enumerate}
-% 	\item Volunt·rios
+% 	\item Volunt√°rios
 % 	  \begin{itemize}
-% 	  \item Maior parte das contribuiÁıes
+% 	  \item Maior parte das contribui√ß√µes
 % 	  \item Cultura de dom! \vspace{0.2cm}
 % 	  \end{itemize}
-% 	\item AcadÍmicos: pesquisadores e alunos de pÛs-graduaÁ„o%\pause
+% 	\item Acad√™micos: pesquisadores e alunos de p√≥s-gradua√ß√£o%\pause
 % 	  \begin{itemize}
-% 	  \item De \tgreen{\textbf{graduaÁ„o}} tambÈm! \vspace{0.2cm} 
+% 	  \item De \tgreen{\textbf{gradua√ß√£o}} tamb√©m! \vspace{0.2cm} 
 % 	  \end{itemize}
 % 	\item ... e mais algumas, discutidas a seguir.
 % 	\end{enumerate}
@@ -963,79 +987,79 @@ Resposta curta: \textbf{SIM!}
 % \begin{frame}
 % 	\frametitle{Empresas diversas}
 % 	% uma empresa pode pertencer a diversas categorias, naturalmente.
-% 	\begin{block}{Centradas em soluÁıes de hardware}
+% 	\begin{block}{Centradas em solu√ß√µes de hardware}
 %     \begin{columns}
 %     \begin{column}[l]{6.5cm}
-% %- Empresas para quem FLOSS torna possÌvel a venda de hardware ou soluÁıes
-% %  - Software È muito mais um criador de oportunidades do que um diferencial de 
-% % negÛcio. Por isso empresas como HP e IBM apÛiam desenvolvimento de software 
+% %- Empresas para quem FLOSS torna poss√≠vel a venda de hardware ou solu√ß√µes
+% %  - Software √© muito mais um criador de oportunidades do que um diferencial de 
+% % neg√≥cio. Por isso empresas como HP e IBM ap√≥iam desenvolvimento de software 
 % % livre consistentemente. 
 % 	  \begin{itemize}
 % 	  \item Software como criador de oportunidades
-% 	  \item Hardware ou serviÁos como diferenciadores 
+% 	  \item Hardware ou servi√ßos como diferenciadores 
 % 	  \end{itemize}
 % 	\end{column}
 %     \begin{column}[l]{4cm}
 %     	\begin{figure}
 % 	\begin{center}
 %  	\includegraphics[scale=0.12]{ibm.png} \hspace{0.2cm}
-% % 	%LicenÁa: Esta imagem, ou texto mostrado nela, consiste somente de 
-% % simples formas geomÈtricas ou texto. 
-% % 	% Elas n„o se encontram no limiar de originalidade necess·rio para a 
-% % proteÁ„o de direitos autorais e por 
-% % 	% isso est„o em domÌnio p˙blico. Embora seja livre de restriÁıes de 
+% % 	%Licen√ßa: Esta imagem, ou texto mostrado nela, consiste somente de 
+% % simples formas geom√©tricas ou texto. 
+% % 	% Elas n√£o se encontram no limiar de originalidade necess√°rio para a 
+% % prote√ß√£o de direitos autorais e por 
+% % 	% isso est√£o em dom√≠nio p√∫blico. Embora seja livre de restri√ß√µes de 
 % % direitos autorais, esta imagem ainda 
-% % 	% pode estar sujeita a outras restriÁıes.
+% % 	% pode estar sujeita a outras restri√ß√µes.
 %  	\includegraphics[scale=0.12]{hp.png}
-% % 	%LicenÁa: Esta imagem, ou texto mostrado nela, consiste somente de 
-% % simples formas geomÈtricas ou texto. 
-% % 	% Elas n„o se encontram no limiar de originalidade necess·rio para a 
-% % proteÁ„o de direitos autorais e por 
-% % 	% isso est„o em domÌnio p˙blico. Embora seja livre de restriÁıes de 
+% % 	%Licen√ßa: Esta imagem, ou texto mostrado nela, consiste somente de 
+% % simples formas geom√©tricas ou texto. 
+% % 	% Elas n√£o se encontram no limiar de originalidade necess√°rio para a 
+% % prote√ß√£o de direitos autorais e por 
+% % 	% isso est√£o em dom√≠nio p√∫blico. Embora seja livre de restri√ß√µes de 
 % % direitos autorais, esta imagem ainda 
-% % 	% pode estar sujeita a outras restriÁıes.
+% % 	% pode estar sujeita a outras restri√ß√µes.
 %     \end{center}
 % 	\end{figure}	  
 %     \end{column}
 %     \end{columns}
 %     \vspace{0.3cm}
 % 	\end{block}%\pause
-%     \begin{block}{Centradas em uma distribuiÁ„o do Linux}
-% %- Empresas centradas em distribuiÁıes do Linux
-% %  - CÛdigo Aberto Propriet·rio: usa-se o Linux, que È livre, mas paga-se por 
-% % serviÁos fundamentais como informaÁıes sobre atualizaÁıes de seguranÁa. 
-% %Paga-se por licenÁas de uso, analogamente ao modelo propriet·rio de varejo. 
-% %ViolaÁıes do % termo de uso (como a instalaÁ„o do sistema em mais m·quinas do 
-% %que a licenÁa prevÍ) resultam em revogaÁıes do serviÁo. Na primeira onda (a 
-% %descrita anteriormente foi a segunda), pagava-se por um pedaÁo propriet·rio do 
-% %sistema que expandia as capacidades da vers„o livre.
+%     \begin{block}{Centradas em uma distribui√ß√£o do Linux}
+% %- Empresas centradas em distribui√ß√µes do Linux
+% %  - C√≥digo Aberto Propriet√°rio: usa-se o Linux, que √© livre, mas paga-se por 
+% % servi√ßos fundamentais como informa√ß√µes sobre atualiza√ß√µes de seguran√ßa. 
+% %Paga-se por licen√ßas de uso, analogamente ao modelo propriet√°rio de varejo. 
+% %Viola√ß√µes do % termo de uso (como a instala√ß√£o do sistema em mais m√°quinas do 
+% %que a licen√ßa prev√™) resultam em revoga√ß√µes do servi√ßo. Na primeira onda (a 
+% %descrita anteriormente foi a segunda), pagava-se por um peda√ßo propriet√°rio do 
+% %sistema que expandia as capacidades da vers√£o livre.
 %     \begin{columns}
 %     \begin{column}[l]{6.5cm}
 % 	  \begin{itemize}
-% 	  \item Software \tred{propriet·rio} de cÛdigo aberto
-% 	  \item Paga-se por licenÁas de uso (de serviÁos, como atualizaÁıes de 
-% seguranÁa)
+% 	  \item Software \tred{propriet√°rio} de c√≥digo aberto
+% 	  \item Paga-se por licen√ßas de uso (de servi√ßos, como atualiza√ß√µes de 
+% seguran√ßa)
 % 	  \end{itemize}
 % 	\end{column}
 %     \begin{column}[l]{4cm}
 %     	\begin{figure}
 % 	\begin{center}
 %  	\includegraphics[scale=1]{redhat.jpg}
-% 	%LicenÁa: Copyright pertence ‡ Red Hat, Inc. Uso para fins educacionais 
-% % e n„o-comerciais com uma figura de
-% %     % baixa resoluÁ„o È PROVAVELMENTE considerando um uso justo (fair use) de 
+% 	%Licen√ßa: Copyright pertence √† Red Hat, Inc. Uso para fins educacionais 
+% % e n√£o-comerciais com uma figura de
+% %     % baixa resolu√ß√£o √© PROVAVELMENTE considerando um uso justo (fair use) de 
 % % acordo com a lei americana.
-%     % A RedHat adquiriu a JBoss em 2006 por mais de 400 milhıes de dÛlares. A 
+%     % A RedHat adquiriu a JBoss em 2006 por mais de 400 milh√µes de d√≥lares. A 
 % % JBoss capitliza principalmente com 
-% %     % base em um produto que era distribuÌdo como software de cÛdigo aberto 
-% % (LGPL). Uma descriÁ„o muito interessante 
+% %     % base em um produto que era distribu√≠do como software de c√≥digo aberto 
+% % (LGPL). Uma descri√ß√£o muito interessante 
 %     % de como a JBoss fez para ganhar dinheiro para aqueles mais interessados em
-%    % aspectos de negÛcios pode ser lida 
+%    % aspectos de neg√≥cios pode ser lida 
 %     % em http://www.forentrepreneurs.com/lessons-from-leaders/jboss-example/
-%     % Vale ressaltar que a ˙ltima vers„o do JBoss chama-se WildFly.  
+%     % Vale ressaltar que a √∫ltima vers√£o do JBoss chama-se WildFly.  
 %     
-%     % A projeÁ„o de receitas da Redhat para 2013 ultrapassa US$ 1 bilh„o. … a
-%     % primeira vez que uma empresa com um modelo de negÛcios centrado em OSS
+%     % A proje√ß√£o de receitas da Redhat para 2013 ultrapassa US$ 1 bilh√£o. √â a
+%     % primeira vez que uma empresa com um modelo de neg√≥cios centrado em OSS
 %     % chega nesse patamar de receita.
 %     \end{center}
 % 	\end{figure}
@@ -1047,32 +1071,32 @@ Resposta curta: \textbf{SIM!}
 % 
 % 
 % %
-% %    - CÛdigo aberto puro mais serviÁos
-% %      Software totalmente aberto. A empresa vende serviÁos de suporte de 
-% % diferetes tipos. AtÈ agora, n„o deu muito certo. 
+% %    - C√≥digo aberto puro mais servi√ßos
+% %      Software totalmente aberto. A empresa vende servi√ßos de suporte de 
+% % diferetes tipos. At√© agora, n√£o deu muito certo. 
 % \begin{frame}
-% 	\frametitle{Empresas centradas em um ˙nico programa FLOSS}
-%     \begin{block}{Licenceamento misturando software livre e propriet·rio}
-% % %      Frequentemente usado com bibliotecas que ser„o acopladas a trabalhos 
-% % derivados. O sistema È distribuÌdo gratuitamente com uma licenÁa livre de 
-% % copyleft, que garante que trabalhos derivados n„o podem se diferenciar 
-% %(porque ser„o livres). Para evitar isso, È necess·rio pagar a empresa pela 
-% %vers„o comercial do sistema. Entrada de capital È suplantada por treinamento e 
-% %serviÁos de personalizaÁ„o de software. 
+% 	\frametitle{Empresas centradas em um √∫nico programa FLOSS}
+%     \begin{block}{Licenceamento misturando software livre e propriet√°rio}
+% % %      Frequentemente usado com bibliotecas que ser√£o acopladas a trabalhos 
+% % derivados. O sistema √© distribu√≠do gratuitamente com uma licen√ßa livre de 
+% % copyleft, que garante que trabalhos derivados n√£o podem se diferenciar 
+% %(porque ser√£o livres). Para evitar isso, √© necess√°rio pagar a empresa pela 
+% %vers√£o comercial do sistema. Entrada de capital √© suplantada por treinamento e 
+% %servi√ßos de personaliza√ß√£o de software. 
 %     \begin{itemize}
 %     \item Exemplos:
 %     \begin{itemize}
 %     \item Qt da Digia (antes, Nokia e antes, Trolltech)
 %     \item MySQL da Oracle (ex. MySQL AB)
 %     \end{itemize}
-%     \item ⁄til para bibliotecas
+%     \item √ötil para bibliotecas
 %     \end{itemize}
 %     \end{block}
 % %\pause
-%     \begin{block}{Programa b·sico livre com acessÛrios propriet·rios}
-% % %      - Funcionam de forma an·loga a empresas que vendem software 
-% %propriet·rio de varejo, sÛ que em menor escala e com menos ineficiÍncia 
-% %(porque o produto livre substitui muito da parte de marketing e divulgaÁ„o). 
+%     \begin{block}{Programa b√°sico livre com acess√≥rios propriet√°rios}
+% % %      - Funcionam de forma an√°loga a empresas que vendem software 
+% %propriet√°rio de varejo, s√≥ que em menor escala e com menos inefici√™ncia 
+% %(porque o produto livre substitui muito da parte de marketing e divulga√ß√£o). 
 %     \begin{itemize}
 %     \item Exemplos:
 %     \begin{itemize}
@@ -1084,13 +1108,13 @@ Resposta curta: \textbf{SIM!}
 % \end{frame}
 % 
 % \begin{frame}
-%   \frametitle{NegÛcios centrados no usu·rio final e Governos}
+%   \frametitle{Neg√≥cios centrados no usu√°rio final e Governos}
 % 
 %   \begin{itemize}
-%   \item InstituiÁıes ligadas a governos\hspace{0.1cm}
+%   \item Institui√ß√µes ligadas a governos\hspace{0.1cm}
 % \includegraphics[scale=0.15]{serpro.jpg}\hspace{0.1cm}
 % \includegraphics[scale=0.2]{petrobras.jpg}
-%    \item OrganizaÁıes cujo produto principal n„o È software\vspace{0.2cm}
+%    \item Organiza√ß√µes cujo produto principal n√£o √© software\vspace{0.2cm}
 %   \item Exemplos:
 %     \begin{enumerate}
 %     \item Facebook
@@ -1103,28 +1127,28 @@ Resposta curta: \textbf{SIM!}
 %   \item Pagam membros da equipe para trabalhar em FLOSS\vspace{0.2cm}
 %   \end{itemize}
 % \end{frame}
-% %- NegÛcios centrados no usu·rio final e seus contratantes
-% %  - A REDU faz parte desta categoria, mas vÍm FLOSS n„o apenas como uma forma 
+% %- Neg√≥cios centrados no usu√°rio final e seus contratantes
+% %  - A REDU faz parte desta categoria, mas v√™m FLOSS n√£o apenas como uma forma 
 % % de dividir custos e riscos, mas como uma forma de criar uma comunidade local 
-% %de profissionais capacitados em tecnologias interessantes mas n„o largamente
-% %disseminadas (partindo da premissa de que h· pessoas interessadas nessas 
-% % tecnologias e em FLOSS isoladamente e que È possÌvel fomentar o 
+% %de profissionais capacitados em tecnologias interessantes mas n√£o largamente
+% %disseminadas (partindo da premissa de que h√° pessoas interessadas nessas 
+% % tecnologias e em FLOSS isoladamente e que √© poss√≠vel fomentar o 
 % % desenvolvimento  de FLOSS como uma forma de capacitar pessoas nessas 
 % %tecnologias e criar um ecossistema em torno delas). 
 % %   
-% %- NegÛcios centrados em serviÁos
-% %  - Normalmente s„o organizaÁıes que integram v·rios soluÁıes abertas e as 
-% % tornam disponÌveis atravÈs de serviÁos acessÌveis via Internet. Como n„o 
-% % precisam distribuir o software, licenÁas como a GPLv2 n„o se aplicam a este 
-% % caso. A GPL v3 provavelmente evita isso ao exigir que o usu·rio possa usar o 
-% % programa commo bem entender. Por outro lado, a GPL v3 n„o foi amplamente 
-% %adotada como se esperava (em particuar, o Linux n„o a usa). 
+% %- Neg√≥cios centrados em servi√ßos
+% %  - Normalmente s√£o organiza√ß√µes que integram v√°rios solu√ß√µes abertas e as 
+% % tornam dispon√≠veis atrav√©s de servi√ßos acess√≠veis via Internet. Como n√£o 
+% % precisam distribuir o software, licen√ßas como a GPLv2 n√£o se aplicam a este 
+% % caso. A GPL v3 provavelmente evita isso ao exigir que o usu√°rio possa usar o 
+% % programa commo bem entender. Por outro lado, a GPL v3 n√£o foi amplamente 
+% %adotada como se esperava (em particuar, o Linux n√£o a usa). 
 % %
 % %- Governos
-% %  - Similares aos NegÛcios Centrados no Usu·rio Final e seus Contratantes. 
-% % Entretanto, o objetivo do governo deve ser o bem-estar do povo que È 
-% %governado. Isso fornece um incentivo a mais para a adoÁ„o de soluÁÚes que n„o 
-% %prendam a populaÁ„o aos produtos de um fabricante especÌfico. 
+% %  - Similares aos Neg√≥cios Centrados no Usu√°rio Final e seus Contratantes. 
+% % Entretanto, o objetivo do governo deve ser o bem-estar do povo que √© 
+% %governado. Isso fornece um incentivo a mais para a ado√ß√£o de solu√ß√≤es que n√£o 
+% %prendam a popula√ß√£o aos produtos de um fabricante espec√≠fico. 
 
 
 
@@ -1134,13 +1158,13 @@ Resposta curta: \textbf{SIM!}
 \begin{frame}
 \vspace{0.2cm}
 \begin{center}
-\Huge{Como VocÍ Pode se Beneficiar?}
+\Huge{Como Voc√™ Pode se Beneficiar?}
 \end{center}
 \end{frame}
 
 
 \begin{frame}
-	\LARGE{Software livre È gr·tis}\pause\LARGE{?}
+	\LARGE{Software livre √© gr√°tis}\pause\LARGE{?}
 \end{frame}
 
 \begin{frame}
@@ -1158,12 +1182,12 @@ Resposta curta: \textbf{SIM!}
 \end{frame}
 
 \begin{frame}
-	\frametitle{H· muitas oportunidades para trabalhar com FLOSS!}
+	\frametitle{H√° muitas oportunidades para trabalhar com FLOSS!}
  	\includegraphics[scale=0.45]{oss_jobs.jpg}
 \end{frame}
 
 \begin{frame}
-	\frametitle{H· muitas oportunidades para trabalhar com FLOSS!}
+	\frametitle{H√° muitas oportunidades para trabalhar com FLOSS!}
  	\includegraphics[scale=0.45]{oss_jobs2.jpg}
 \end{frame}
 
@@ -1171,10 +1195,10 @@ Resposta curta: \textbf{SIM!}
 	\frametitle{Sua empresa pode economizar!}
  	\includegraphics[scale=0.45]{economia.jpg}	
 	%Fonte: http://www.blackducksoftware.com/news/releases/2009-04-14
-	%O valor mencionado na figura È uma estimativa de quanto dinheiro precisaria 
-	%ser gasto para produzir todos os sistemas de software de cÛdigo aberto que
-	%s„o indexados pela base de dados Ohloh, mantida pela Black Duck. Essa base
-	%de dados È bem grande e completa. A parte mais importante da matÈria È esta:
+	%O valor mencionado na figura √© uma estimativa de quanto dinheiro precisaria 
+	%ser gasto para produzir todos os sistemas de software de c√≥digo aberto que
+	%s√£o indexados pela base de dados Ohloh, mantida pela Black Duck. Essa base
+	%de dados √© bem grande e completa. A parte mais importante da mat√©ria √© esta:
 	%  "An additional analysis, which estimates that 10 percent of IT application 
 	%   development spending is redundant with existing open source projects, 
 	%   indicates U.S. companies could realize savings of more than $22 billion 
@@ -1198,14 +1222,14 @@ Resposta curta: \textbf{SIM!}
 	\frametitle{Obrigado!}
 \begin{block}{Resumo}
 \begin{itemize}
-\item {\bf (0)} executar, {\bf (1)} estudar e modificar, {\bf (2)} distribuir e {\bf (3)} distribuir versıes modificadas
-\item Software Livre e Software de CÛdigo Aberto s„o dois lados da mesma moeda 
-\item Vale a pena abrir o cÛdigo para\vspace{0.1cm}
+\item {\bf (0)} executar, {\bf (1)} estudar e modificar, {\bf (2)} distribuir e {\bf (3)} distribuir vers√µes modificadas
+\item Software Livre e Software de C√≥digo Aberto s√£o dois lados da mesma moeda 
+\item Vale a pena abrir o c√≥digo para\vspace{0.1cm}
 	\begin{enumerate}
-	\item software que \bred{\textbf{n„o È um diferencial}} de negÛcios
-	\item software que È uma \bgreen{\textbf{tecnologia possibilitadora}} para v·rios negÛcios
+	\item software que \bred{\textbf{n√£o √© um diferencial}} de neg√≥cios
+	\item software que √© uma \bgreen{\textbf{tecnologia possibilitadora}} para v√°rios neg√≥cios
 	\end{enumerate}
-\item H· muitas formas de se beneficiar profissionalmente com FLOSS
+\item H√° muitas formas de se beneficiar profissionalmente com FLOSS
 \end{itemize}
 \end{block}
 
@@ -1220,11 +1244,11 @@ Resposta curta: \textbf{SIM!}
 
 
 \begin{frame}
-    \frametitle{LicenÁa}
+    \frametitle{Licen√ßa}
 \begin{center}
 \includegraphics[scale=0.7]{by-nc-sa.png}\\
 \end{center}
-\begin{block}{VocÍ tem o direito de:}
+\begin{block}{Voc√™ tem o direito de:}
 \scriptsize{\begin{description}
 \item[Compartilhar] --- copiar e redistribuir o material em qualquer 
 formato
@@ -1234,25 +1258,25 @@ formato
 %\pause
 \begin{block}{De acordo com os seguintes termos:}
 \scriptsize{\begin{description}
-\item[Attribution] --- VocÍ deve atribuir o devido crÈdito, fornecer um link 
-para a licenÁa e indicar se foram feitas alteraÁıes. VocÍ pode fazÍ-lo de 
-qualquer forma razo·vel, mas n„o de uma forma que sugira que o licenciante o 
+\item[Attribution] --- Voc√™ deve atribuir o devido cr√©dito, fornecer um link 
+para a licen√ßa e indicar se foram feitas altera√ß√µes. Voc√™ pode faz√™-lo de 
+qualquer forma razo√°vel, mas n√£o de uma forma que sugira que o licenciante o 
 apoia ou aprova o seu uso.
-\item[NonCommercial] --- VocÍ n„o pode usar o material para fins comerciais.
-\item[ShareAlike] --- Se vocÍ remixar, transformar ou criar a partir do 
-material, tem de distribuir suas contribuiÁıes sob a mesma licenÁa
+\item[NonCommercial] --- Voc√™ n√£o pode usar o material para fins comerciais.
+\item[ShareAlike] --- Se voc√™ remixar, transformar ou criar a partir do 
+material, tem de distribuir suas contribui√ß√µes sob a mesma licen√ßa
 \end{description}}
 \end{block}
-% Esta licenÁa permite que outros remixem, adaptem e criem obras derivadas 
-%  a obra original, desde que com fins n„o comerciais e contanto que 
-% atribuam crÈdito ao autor e licenciem as novas criaÁıes sob os mesmos 
-% par‚metros. Outros podem fazer o download ou redistribuir a obra da mesma 
-% forma que na licenÁa anterior, mas eles tambÈm podem traduzir, fazer remixes 
-% e elaborar novas histÛrias com base na obra original. Toda nova obra feita a 
-% partir desta dever· ser licenciada com a mesma licenÁa, de modo que qualquer 
-% obra derivada, por natureza, n„o poder· ser usada para fins comerciais.
+% Esta licen√ßa permite que outros remixem, adaptem e criem obras derivadas 
+%  a obra original, desde que com fins n√£o comerciais e contanto que 
+% atribuam cr√©dito ao autor e licenciem as novas cria√ß√µes sob os mesmos 
+% par√¢metros. Outros podem fazer o download ou redistribuir a obra da mesma 
+% forma que na licen√ßa anterior, mas eles tamb√©m podem traduzir, fazer remixes 
+% e elaborar novas hist√≥rias com base na obra original. Toda nova obra feita a 
+% partir desta dever√° ser licenciada com a mesma licen√ßa, de modo que qualquer 
+% obra derivada, por natureza, n√£o poder√° ser usada para fins comerciais.
 %\pause
-\bred{\footnotesize{Mais informaÁıes em 
+\bred{\footnotesize{Mais informa√ß√µes em 
 http://creativecommons.org/licenses/by-nc-sa/3.0/br/}}
 \end{frame}
 
