@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.19)  28 MAR 2019 21:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.19)  28 MAR 2019 21:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -905,77 +905,70 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-theorem-dic
 tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./software_livre.nav
-! Undefined control sequence.
-l.1 \beamer@endinputifotherversion
-                                   {3.33pt}
-? 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+) (./software_livre.nav) [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/
+updmap/pdftex.map}
 
- [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
- <./cin.jpg> <./ines.png> <./spg.jpg>] [2 <./license.png>]
-<samsung.jpg, id=307, 225.84375pt x 83.5622pt>
+ <./cin.jpg> <./ines.png> <./spg.jpg> <./license.png>]
+<samsung.jpg, id=259, 225.84375pt x 83.5622pt>
 File: samsung.jpg Graphic file (type jpg)
 <use samsung.jpg>
 Package pdftex.def Info: samsung.jpg  used on input line 139.
 (pdftex.def)             Requested size: 85.8215pt x 31.75395pt.
-<brasil.jpg, id=308, 435.6275pt x 181.67876pt>
+<brasil.jpg, id=260, 435.6275pt x 181.67876pt>
 File: brasil.jpg Graphic file (type jpg)
 <use brasil.jpg>
 Package pdftex.def Info: brasil.jpg  used on input line 139.
 (pdftex.def)             Requested size: 87.12395pt x 36.3351pt.
-<mozilla.png, id=309, 151.56625pt x 122.4575pt>
+<mozilla.png, id=261, 151.56625pt x 122.4575pt>
 File: mozilla.png Graphic file (type png)
 <use mozilla.png>
 Package pdftex.def Info: mozilla.png  used on input line 139.
 (pdftex.def)             Requested size: 68.20418pt x 55.10535pt.
-<redhat.png, id=310, 501.875pt x 144.54pt>
+<redhat.png, id=262, 501.875pt x 144.54pt>
 File: redhat.png Graphic file (type png)
 <use redhat.png>
 Package pdftex.def Info: redhat.png  used on input line 139.
 (pdftex.def)             Requested size: 100.37321pt x 28.90747pt.
-<ibm.png, id=311, 501.875pt x 200.75pt>
+<ibm.png, id=263, 501.875pt x 200.75pt>
 File: ibm.png Graphic file (type png)
 <use ibm.png>
 Package pdftex.def Info: ibm.png  used on input line 139.
 (pdftex.def)             Requested size: 75.278pt x 30.11119pt.
-<facebook.jpg, id=312, 280.04625pt x 266.9975pt>
+<facebook.jpg, id=264, 280.04625pt x 266.9975pt>
 File: facebook.jpg Graphic file (type jpg)
 <use facebook.jpg>
 Package pdftex.def Info: facebook.jpg  used on input line 139.
 (pdftex.def)             Requested size: 53.20934pt x 50.73004pt.
-<apple_logo.png, id=313, 256.96pt x 256.96pt>
+<apple_logo.png, id=265, 256.96pt x 256.96pt>
 File: apple_logo.png Graphic file (type png)
 <use apple_logo.png>
 Package pdftex.def Info: apple_logo.png  used on input line 139.
 (pdftex.def)             Requested size: 48.8229pt x 48.8229pt.
-<microsoft.png, id=314, 301.125pt x 301.125pt>
+<microsoft.png, id=266, 301.125pt x 301.125pt>
 File: microsoft.png Graphic file (type png)
 <use microsoft.png>
 Package pdftex.def Info: microsoft.png  used on input line 139.
 (pdftex.def)             Requested size: 57.21434pt x 57.21434pt.
- [3
+ [2
 
  <./samsung.jpg> <./brasil.jpg> <./mozilla.png> <./redhat.png> <./ibm.png> <./f
-acebook.jpg> <./apple_logo.png> <./microsoft.png>] [4
+acebook.jpg> <./apple_logo.png> <./microsoft.png>] [3
 
-] [5
+] [4
+
+]
+[5
 
 ] [6
 
-] [7
-
 ]
-<licenca-oo.jpg, id=716, 416.55624pt x 401.5pt>
+<licenca-oo.jpg, id=665, 416.55624pt x 401.5pt>
 File: licenca-oo.jpg Graphic file (type jpg)
 <use licenca-oo.jpg>
 Package pdftex.def Info: licenca-oo.jpg  used on input line 290.
 (pdftex.def)             Requested size: 145.79686pt x 140.5271pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 290.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 290.
@@ -990,89 +983,80 @@ line 290.
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<lgpl3.png, id=717, 147.55125pt x 51.19125pt>
+<lgpl3.png, id=666, 147.55125pt x 51.19125pt>
 File: lgpl3.png Graphic file (type png)
 <use lgpl3.png>
 Package pdftex.def Info: lgpl3.png  used on input line 290.
 (pdftex.def)             Requested size: 73.77544pt x 25.59555pt.
-<gpl3.png, id=718, 127.47626pt x 51.19125pt>
+<gpl3.png, id=667, 127.47626pt x 51.19125pt>
 File: gpl3.png Graphic file (type png)
 <use gpl3.png>
 Package pdftex.def Info: gpl3.png  used on input line 290.
 (pdftex.def)             Requested size: 63.73796pt x 25.59555pt.
- [8
+ [7
 
  <./licenca-oo.jpg> <./lgpl3.png> <./gpl3.png>]
-<rms.jpg, id=798, 180.9159pt x 159.9576pt>
+<rms.jpg, id=748, 180.9159pt x 159.9576pt>
 File: rms.jpg Graphic file (type jpg)
 <use rms.jpg>
 Package pdftex.def Info: rms.jpg  used on input line 308.
 (pdftex.def)             Requested size: 162.82278pt x 143.9605pt.
- [9
+ [8
 
  <./rms.jpg>]
-<windows8.jpg, id=876, 451.6875pt x 254.45062pt>
+<windows8.jpg, id=826, 451.6875pt x 254.45062pt>
 File: windows8.jpg Graphic file (type jpg)
 <use windows8.jpg>
 Package pdftex.def Info: windows8.jpg  used on input line 326.
 (pdftex.def)             Requested size: 271.01459pt x 152.67154pt.
- [10
+ [9
 
  <./windows8.jpg>]
-<tux.png, id=953, 265.99374pt x 315.1775pt>
+<tux.png, id=904, 265.99374pt x 315.1775pt>
 File: tux.png Graphic file (type png)
 <use tux.png>
 Package pdftex.def Info: tux.png  used on input line 340.
 (pdftex.def)             Requested size: 119.69608pt x 141.82855pt.
- [11
+ [10
 
  <./tux.png>]
-<avast.png, id=1032, 501.875pt x 185.69376pt>
+<avast.png, id=982, 501.875pt x 185.69376pt>
 File: avast.png Graphic file (type png)
 <use avast.png>
 Package pdftex.def Info: avast.png  used on input line 356.
 (pdftex.def)             Requested size: 225.84166pt x 83.56142pt.
- [12
+ [11
 
- <./avast.png>] [13
+ <./avast.png>] [12
 
-] [14
+] [13
 
 ]
-<dilbert.jpg, id=1269, 642.4pt x 199.74625pt>
+<dilbert.jpg, id=1219, 642.4pt x 199.74625pt>
 File: dilbert.jpg Graphic file (type jpg)
 <use dilbert.jpg>
 Package pdftex.def Info: dilbert.jpg  used on input line 458.
 (pdftex.def)             Requested size: 256.95544pt x 79.89708pt.
- [15
+ [14
 
  <./dilbert.jpg>]
-
-! Package keyval Error: l undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.491  \end{frame}
-                  
-? 
-<esr.jpg, id=1348, 301.125pt x 463.7325pt>
+<esr.jpg, id=1298, 301.125pt x 463.7325pt>
 File: esr.jpg Graphic file (type jpg)
 <use esr.jpg>
 Package pdftex.def Info: esr.jpg  used on input line 491.
 (pdftex.def)             Requested size: 90.33818pt x 139.12082pt.
-<perens.jpg, id=1349, 146.949pt x 175.3752pt>
+<perens.jpg, id=1299, 146.949pt x 175.3752pt>
 File: perens.jpg Graphic file (type jpg)
 <use perens.jpg>
 Package pdftex.def Info: perens.jpg  used on input line 491.
 (pdftex.def)             Requested size: 110.21147pt x 131.53107pt.
-[16
 
- <./esr.jpg> <./perens.jpg>] [17
+[15
+
+ <./esr.jpg> <./perens.jpg>] [16
 
 ]
-<osd.png, id=1505, 648.4225pt x 616.3025pt>
+<osd.png, id=1454, 648.4225pt x 616.3025pt>
 File: osd.png Graphic file (type png)
 <use osd.png>
 Package pdftex.def Info: osd.png  used on input line 523.
@@ -1081,14 +1065,14 @@ Package pdftex.def Info: osd.png  used on input line 523.
 Overfull \vbox (1.63322pt too high) detected at line 523
  []
 
-[18
+[17
 
  <./osd.png>]
 File: redhat.png Graphic file (type png)
 <use redhat.png>
 Package pdftex.def Info: redhat.png  used on input line 596.
 (pdftex.def)             Requested size: 100.37321pt x 28.90747pt.
-<google.png, id=1582, 1038.88126pt x 803.0pt>
+<google.png, id=1532, 1038.88126pt x 803.0pt>
 File: google.png Graphic file (type png)
 <use google.png>
 Package pdftex.def Info: google.png  used on input line 596.
@@ -1097,7 +1081,7 @@ File: microsoft.png Graphic file (type png)
 <use microsoft.png>
 Package pdftex.def Info: microsoft.png  used on input line 596.
 (pdftex.def)             Requested size: 60.22392pt x 60.22392pt.
-<oracle.png, id=1583, 501.875pt x 71.26625pt>
+<oracle.png, id=1533, 501.875pt x 71.26625pt>
 File: oracle.png Graphic file (type png)
 <use oracle.png>
 Package pdftex.def Info: oracle.png  used on input line 596.
@@ -1106,7 +1090,7 @@ File: ibm.png Graphic file (type png)
 <use ibm.png>
 Package pdftex.def Info: ibm.png  used on input line 596.
 (pdftex.def)             Requested size: 75.278pt x 30.11119pt.
-<mysql.png, id=1584, 501.875pt x 259.97125pt>
+<mysql.png, id=1534, 501.875pt x 259.97125pt>
 File: mysql.png Graphic file (type png)
 <use mysql.png>
 Package pdftex.def Info: mysql.png  used on input line 596.
@@ -1119,22 +1103,24 @@ File: mozilla.png Graphic file (type png)
 <use mozilla.png>
 Package pdftex.def Info: mozilla.png  used on input line 596.
 (pdftex.def)             Requested size: 33.34467pt x 26.94072pt.
- [19
+ [18
 
  <./google.png> <./oracle.png> <./mysql.png>]
-<lbt.jpg, id=1667, 202.356pt x 279.6849pt>
+<lbt.jpg, id=1615, 202.356pt x 279.6849pt>
 File: lbt.jpg Graphic file (type jpg)
 <use lbt.jpg>
 Package pdftex.def Info: lbt.jpg  used on input line 612.
 (pdftex.def)             Requested size: 121.41452pt x 167.81223pt.
- [20
+ [19
 
  <./lbt.jpg>]
 File: lbt.jpg Graphic file (type jpg)
 <use lbt.jpg>
 Package pdftex.def Info: lbt.jpg  used on input line 612.
 (pdftex.def)             Requested size: 121.41452pt x 167.81223pt.
- [21
+ [20
+
+] [21
 
 ] [22
 
@@ -1142,10 +1128,8 @@ Package pdftex.def Info: lbt.jpg  used on input line 612.
 
 ] [24
 
-] [25
-
 ]
-<mushrooms.jpg, id=2133, 321.2pt x 145.343pt>
+<mushrooms.jpg, id=2079, 321.2pt x 145.343pt>
 File: mushrooms.jpg Graphic file (type jpg)
 <use mushrooms.jpg>
 Package pdftex.def Info: mushrooms.jpg  used on input line 698.
@@ -1155,7 +1139,7 @@ Overfull \hbox (3.68752pt too wide) in paragraph at lines 698--698
  [] 
  []
 
-[26
+[25
 
  <./mushrooms.jpg>]
 File: mushrooms.jpg Graphic file (type jpg)
@@ -1167,14 +1151,14 @@ Overfull \hbox (3.68752pt too wide) in paragraph at lines 698--698
  [] 
  []
 
-[27
+[26
+
+] [27
 
 ] [28
 
-] [29
-
 ]
-<gift_economy.jpg, id=2445, 501.875pt x 413.545pt>
+<gift_economy.jpg, id=2389, 501.875pt x 413.545pt>
 File: gift_economy.jpg Graphic file (type jpg)
 <use gift_economy.jpg>
 Package pdftex.def Info: gift_economy.jpg  used on input line 801.
@@ -1184,7 +1168,7 @@ Overfull \hbox (8.29988pt too wide) in paragraph at lines 801--801
  [] 
  []
 
-[30
+[29
 
  <./gift_economy.jpg>]
 File: gift_economy.jpg Graphic file (type jpg)
@@ -1196,10 +1180,10 @@ Overfull \hbox (8.29988pt too wide) in paragraph at lines 801--801
  [] 
  []
 
-[31
+[30
 
 ]
-<ibm_invests.png, id=2601, 930.47626pt x 593.21625pt>
+<ibm_invests.png, id=2545, 930.47626pt x 593.21625pt>
 File: ibm_invests.png Graphic file (type png)
 <use ibm_invests.png>
 Package pdftex.def Info: ibm_invests.png  used on input line 821.
@@ -1208,7 +1192,7 @@ Package pdftex.def Info: ibm_invests.png  used on input line 821.
 Overfull \vbox (4.81pt too high) detected at line 821
  []
 
-[32
+[31
 
  <./ibm_invests.png>]
 File: ibm_invests.png Graphic file (type png)
@@ -1219,10 +1203,10 @@ Package pdftex.def Info: ibm_invests.png  used on input line 821.
 Overfull \vbox (4.81pt too high) detected at line 821
  []
 
-[33
+[32
 
 ]
-<oss_contributors.png, id=2756, 1029.8475pt x 578.16pt>
+<oss_contributors.png, id=2701, 1029.8475pt x 578.16pt>
 File: oss_contributors.png Graphic file (type png)
 <use oss_contributors.png>
 Package pdftex.def Info: oss_contributors.png  used on input line 830.
@@ -1232,14 +1216,14 @@ Overfull \hbox (1.66676pt too wide) in paragraph at lines 830--830
  [] 
  []
 
-[34
+[33
 
- <./oss_contributors.png>] [35
+ <./oss_contributors.png>] [34
 
-] [36
+] [35
 
 ]
-<joker.jpg, id=2989, 520.94624pt x 341.275pt>
+<joker.jpg, id=2935, 520.94624pt x 341.275pt>
 File: joker.jpg Graphic file (type jpg)
 <use joker.jpg>
 Package pdftex.def Info: joker.jpg  used on input line 875.
@@ -1249,10 +1233,10 @@ Overfull \hbox (31.32118pt too wide) in paragraph at lines 875--875
  [] 
  []
 
-[37
+[36
 
  <./joker.jpg>]
-<investimento.jpg, id=3068, 425.9112pt x 239.4546pt>
+<investimento.jpg, id=3012, 425.9112pt x 239.4546pt>
 File: investimento.jpg Graphic file (type jpg)
 <use investimento.jpg>
 Package pdftex.def Info: investimento.jpg  used on input line 896.
@@ -1262,10 +1246,10 @@ Overfull \hbox (12.14273pt too wide) in paragraph at lines 896--896
  [] 
  []
 
-[38
+[37
 
  <./investimento.jpg>]
-<receita_floss.jpg, id=3147, 429.2838pt x 214.8828pt>
+<receita_floss.jpg, id=3091, 429.2838pt x 214.8828pt>
 File: receita_floss.jpg Graphic file (type jpg)
 <use receita_floss.jpg>
 Package pdftex.def Info: receita_floss.jpg  used on input line 910.
@@ -1275,7 +1259,7 @@ Overfull \hbox (14.67218pt too wide) in paragraph at lines 910--910
  [] 
  []
 
-[39
+[38
 
  <./receita_floss.jpg>]
 File: receita_floss.jpg Graphic file (type jpg)
@@ -1287,10 +1271,10 @@ Overfull \hbox (14.67218pt too wide) in paragraph at lines 910--910
  [] 
  []
 
-[40
+[39
 
 ]
-<time_spent.jpg, id=3301, 493.845pt x 602.25pt>
+<time_spent.jpg, id=3247, 493.845pt x 602.25pt>
 File: time_spent.jpg Graphic file (type jpg)
 <use time_spent.jpg>
 Package pdftex.def Info: time_spent.jpg  used on input line 918.
@@ -1299,10 +1283,10 @@ Package pdftex.def Info: time_spent.jpg  used on input line 918.
 Overfull \vbox (75.04837pt too high) detected at line 918
  []
 
-[41
+[40
 
  <./time_spent.jpg>]
-<android.png, id=3380, 608.2725pt x 288.07625pt>
+<android.png, id=3324, 608.2725pt x 288.07625pt>
 File: android.png Graphic file (type png)
 <use android.png>
 Package pdftex.def Info: android.png  used on input line 950.
@@ -1311,7 +1295,7 @@ Package pdftex.def Info: android.png  used on input line 950.
 Overfull \vbox (3.56532pt too high) detected at line 950
  []
 
-[42
+[41
 
  <./android.png>]
 File: android.png Graphic file (type png)
@@ -1322,43 +1306,43 @@ Package pdftex.def Info: android.png  used on input line 950.
 Overfull \vbox (3.56532pt too high) detected at line 950
  []
 
-[43
+[42
 
 ]
-<swift_logo.png, id=3535, 1027.84pt x 556.0775pt>
+<swift_logo.png, id=3480, 1027.84pt x 556.0775pt>
 File: swift_logo.png Graphic file (type png)
 <use swift_logo.png>
 Package pdftex.def Info: swift_logo.png  used on input line 964.
 (pdftex.def)             Requested size: 226.12549pt x 122.33742pt.
- [44
+ [43
 
  <./swift_logo.png>]
-<apple_revenue.jpg, id=3614, 735.74875pt x 522.95375pt>
+<apple_revenue.jpg, id=3560, 735.74875pt x 522.95375pt>
 File: apple_revenue.jpg Graphic file (type jpg)
 <use apple_revenue.jpg>
 Package pdftex.def Info: apple_revenue.jpg  used on input line 970.
 (pdftex.def)             Requested size: 279.58742pt x 198.72449pt.
- [45
+ [44
 
- <./apple_revenue.jpg>] [46
+ <./apple_revenue.jpg>] [45
+
+] [46
 
 ] [47
 
 ] [48
 
-] [49
-
 ]
-[50
+[49
+
+] [50
 
 ] [51
 
 ] [52
 
-] [53
-
 ]
-<example_CV.jpg, id=4312, 240.9pt x 340.6326pt>
+<example_CV.jpg, id=4255, 240.9pt x 340.6326pt>
 File: example_CV.jpg Graphic file (type jpg)
 <use example_CV.jpg>
 Package pdftex.def Info: example_CV.jpg  used on input line 1221.
@@ -1367,10 +1351,10 @@ Package pdftex.def Info: example_CV.jpg  used on input line 1221.
 Overfull \vbox (29.39793pt too high) detected at line 1221
  []
 
-[54
+[53
 
  <./example_CV.jpg>]
-<example_CV2.jpg, id=4390, 240.9pt x 340.6326pt>
+<example_CV2.jpg, id=4333, 240.9pt x 340.6326pt>
 File: example_CV2.jpg Graphic file (type jpg)
 <use example_CV2.jpg>
 Package pdftex.def Info: example_CV2.jpg  used on input line 1226.
@@ -1379,10 +1363,10 @@ Package pdftex.def Info: example_CV2.jpg  used on input line 1226.
 Overfull \vbox (29.39793pt too high) detected at line 1226
  []
 
-[55
+[54
 
  <./example_CV2.jpg>]
-<contrib.jpg, id=4469, 1601.985pt x 88.33pt>
+<contrib.jpg, id=4411, 1601.985pt x 88.33pt>
 File: contrib.jpg Graphic file (type jpg)
 <use contrib.jpg>
 Package pdftex.def Info: contrib.jpg  used on input line 1230.
@@ -1392,10 +1376,10 @@ Overfull \hbox (173.30934pt too wide) in paragraph at lines 1230--1230
 [][]  
  []
 
-[56
+[55
 
  <./contrib.jpg>]
-<oss_jobs.jpg, id=4546, 602.25pt x 541.02126pt>
+<oss_jobs.jpg, id=4490, 602.25pt x 541.02126pt>
 File: oss_jobs.jpg Graphic file (type jpg)
 <use oss_jobs.jpg>
 Package pdftex.def Info: oss_jobs.jpg  used on input line 1235.
@@ -1404,10 +1388,10 @@ Package pdftex.def Info: oss_jobs.jpg  used on input line 1235.
 Overfull \vbox (17.38142pt too high) detected at line 1235
  []
 
-[57
+[56
 
  <./oss_jobs.jpg>]
-<oss_jobs2.jpg, id=4624, 602.25pt x 523.9575pt>
+<oss_jobs2.jpg, id=4568, 602.25pt x 523.9575pt>
 File: oss_jobs2.jpg Graphic file (type jpg)
 <use oss_jobs2.jpg>
 Package pdftex.def Info: oss_jobs2.jpg  used on input line 1240.
@@ -1416,10 +1400,10 @@ Package pdftex.def Info: oss_jobs2.jpg  used on input line 1240.
 Overfull \vbox (9.7028pt too high) detected at line 1240
  []
 
-[58
+[57
 
  <./oss_jobs2.jpg>]
-<economia.jpg, id=4702, 702.625pt x 456.70625pt>
+<economia.jpg, id=4645, 702.625pt x 456.70625pt>
 File: economia.jpg Graphic file (type jpg)
 <use economia.jpg>
 Package pdftex.def Info: economia.jpg  used on input line 1254.
@@ -1429,10 +1413,10 @@ Overfull \hbox (8.88846pt too wide) in paragraph at lines 1254--1254
 [][]  
  []
 
-[59
+[58
 
  <./economia.jpg>]
-<economia2.jpg, id=4780, 702.625pt x 456.70625pt>
+<economia2.jpg, id=4723, 702.625pt x 456.70625pt>
 File: economia2.jpg Graphic file (type jpg)
 <use economia2.jpg>
 Package pdftex.def Info: economia2.jpg  used on input line 1259.
@@ -1442,25 +1426,25 @@ Overfull \hbox (8.88846pt too wide) in paragraph at lines 1259--1259
 [][]  
  []
 
-[60
+[59
 
  <./economia2.jpg>]
-<msr.png, id=4857, 1010.77625pt x 1021.8175pt>
+<msr.png, id=4801, 1010.77625pt x 1021.8175pt>
 File: msr.png Graphic file (type png)
 <use msr.png>
 Package pdftex.def Info: msr.png  used on input line 1264.
 (pdftex.def)             Requested size: 222.37146pt x 224.80054pt.
- [61
+ [60
 
- <./msr.png>] [62
+ <./msr.png>] [61
 
 ]
-<by-nc-sa.png, id=5015, 97.0827pt x 33.9669pt>
+<by-nc-sa.png, id=4957, 97.0827pt x 33.9669pt>
 File: by-nc-sa.png Graphic file (type png)
 <use by-nc-sa.png>
 Package pdftex.def Info: by-nc-sa.png  used on input line 1329.
 (pdftex.def)             Requested size: 67.95741pt x 23.77666pt.
- [63
+ [62
 
  <./by-nc-sa.png>]
 \tf@nav=\write6
@@ -1479,42 +1463,29 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 1332.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1332.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1332.
 
-
-
-Package rerunfilecheck Warning: File `software_livre.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `software_livre.out':
-(rerunfilecheck)             Before: 9DDD7BF0C86BB4A1F3A72FC20EA328CD;229
-(rerunfilecheck)             After:  652D879BCB95A0CE14D9DD07A2924FB3;663.
+Package rerunfilecheck Info: File `software_livre.out' has not changed.
+(rerunfilecheck)             Checksum: 9A89916FFB520FC6A94DC1B5EABC5F3B;663.
  ) 
 Here is how much of TeX's memory you used:
- 18306 strings out of 492649
- 345146 string characters out of 6129621
- 485088 words of memory out of 5000000
- 21576 multiletter control sequences out of 15000+600000
+ 18310 strings out of 492649
+ 345200 string characters out of 6129621
+ 485100 words of memory out of 5000000
+ 21584 multiletter control sequences out of 15000+600000
  13991 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,20n,55p,819b,974s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Outline0.2.1.12} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.1.1.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></u
-sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr
-/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/l
-ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb>
-Output written on software_livre.pdf (63 pages, 5688473 bytes).
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb>
+Output written on software_livre.pdf (62 pages, 5685721 bytes).
 PDF statistics:
- 5156 PDF objects out of 6186 (max. 8388607)
- 4900 compressed objects within 49 object streams
- 140 named destinations out of 1000 (max. 500000)
- 376 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5097 PDF objects out of 5155 (max. 8388607)
+ 4842 compressed objects within 49 object streams
+ 136 named destinations out of 1000 (max. 500000)
+ 432 words of extra memory for PDF output out of 10000 (max. 10000000)
 
