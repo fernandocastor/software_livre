@@ -1,11 +1,12 @@
-\babel@toc {brazil}{}
+\beamer@endinputifotherversion {3.33pt}
+\select@language {brazil}
 \beamer@sectionintoc {1}{Software Livre}{4}{0}{1}
 \beamer@subsectionintoc {1}{1}{Software Livre}{4}{0}{1}
 \beamer@sectionintoc {2}{C\IeC {\'o}digo Aberto}{12}{0}{2}
 \beamer@subsectionintoc {2}{1}{C\IeC {\'o}digo Aberto}{12}{0}{2}
 \beamer@sectionintoc {3}{Diferen\IeC {\c c}as e Semelhan\IeC {\c c}as}{23}{0}{3}
 \beamer@subsectionintoc {3}{1}{Diferen\IeC {\c c}as e Semelhan\IeC {\c c}as}{23}{0}{3}
-\beamer@sectionintoc {4}{Aspectos Econ\IeC {\^o}micos}{27}{0}{4}
-\beamer@subsectionintoc {4}{1}{Aspectos Econ\IeC {\^o}micos}{27}{0}{4}
-\beamer@sectionintoc {5}{Como se Beneficiar?}{50}{0}{5}
-\beamer@subsectionintoc {5}{1}{Como se Beneficiar?}{50}{0}{5}
+\beamer@sectionintoc {4}{Aspectos Econ\IeC {\^o}micos}{25}{0}{4}
+\beamer@subsectionintoc {4}{1}{Aspectos Econ\IeC {\^o}micos}{25}{0}{4}
+\beamer@sectionintoc {5}{Como se Beneficiar?}{48}{0}{5}
+\beamer@subsectionintoc {5}{1}{Como se Beneficiar?}{48}{0}{5}
