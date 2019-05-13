@@ -3,53 +3,53 @@
 \headcommand {\beamer@framepages {1}{1}}
 \headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
 \headcommand {\beamer@framepages {2}{2}}
-\headcommand {\slideentry {0}{0}{3}{3/3}{}{0}}
+\headcommand {\sectionentry {1}{Software Livre}{3}{Software Livre}{0}}
+\headcommand {\beamer@sectionpages {1}{2}}
+\headcommand {\beamer@subsectionpages {1}{2}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Software Livre}}\headcommand {\beamer@subsectionpages {3}{2}}
+\headcommand {\slideentry {1}{1}{1}{3/3}{Software Livre}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\sectionentry {1}{Software Livre}{4}{Software Livre}{0}}
-\headcommand {\beamer@sectionpages {1}{3}}
-\headcommand {\beamer@subsectionpages {1}{3}}
-\headcommand {\beamer@subsectionentry {0}{1}{1}{4}{Software Livre}}\headcommand {\beamer@subsectionpages {4}{3}}
-\headcommand {\slideentry {1}{1}{1}{4/4}{Software Livre}{0}}
+\headcommand {\slideentry {1}{1}{2}{4/4}{Software Livre}{0}}
 \headcommand {\beamer@framepages {4}{4}}
-\headcommand {\slideentry {1}{1}{2}{5/5}{Software Livre}{0}}
+\headcommand {\slideentry {1}{1}{3}{5/5}{Software Livre}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\slideentry {1}{1}{3}{6/6}{Software Livre}{0}}
+\headcommand {\slideentry {1}{1}{4}{6/6}{Software Livre}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\slideentry {1}{1}{4}{7/7}{Software Livre}{0}}
+\headcommand {\slideentry {1}{1}{5}{7/7}{Software Livre}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\slideentry {1}{1}{5}{8/8}{Software Livre}{0}}
+\headcommand {\slideentry {1}{1}{6}{8/8}{Software Livre}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\slideentry {1}{1}{6}{9/9}{Software Livre}{0}}
+\headcommand {\slideentry {1}{1}{7}{9/9}{Software Livre}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\slideentry {1}{1}{7}{10/10}{Software Livre}{0}}
+\headcommand {\slideentry {1}{1}{8}{10/10}{Software Livre}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {1}{1}{8}{11/11}{Software Livre}{0}}
+\headcommand {\sectionentry {2}{C\IeC {\'o}digo Aberto}{11}{C\IeC {\'o}digo Aberto}{0}}
+\headcommand {\beamer@sectionpages {3}{10}}
+\headcommand {\beamer@subsectionpages {3}{10}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{11}{C\IeC {\'o}digo Aberto}}\headcommand {\beamer@subsectionpages {11}{10}}
+\headcommand {\slideentry {2}{1}{1}{11/11}{C\IeC {\'o}digo Aberto}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\sectionentry {2}{C\IeC {\'o}digo Aberto}{12}{C\IeC {\'o}digo Aberto}{0}}
-\headcommand {\beamer@sectionpages {4}{11}}
-\headcommand {\beamer@subsectionpages {4}{11}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{12}{C\IeC {\'o}digo Aberto}}\headcommand {\beamer@subsectionpages {12}{11}}
-\headcommand {\slideentry {2}{1}{1}{12/12}{C\IeC {\'o}digo Aberto}{0}}
+\headcommand {\slideentry {2}{1}{2}{12/12}{C\IeC {\'o}digo Aberto}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {2}{1}{2}{13/13}{C\IeC {\'o}digo Aberto}{0}}
+\headcommand {\slideentry {2}{1}{3}{13/13}{C\IeC {\'o}digo Aberto}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\slideentry {2}{1}{3}{14/14}{C\IeC {\'o}digo Aberto}{0}}
+\headcommand {\slideentry {2}{1}{4}{14/14}{C\IeC {\'o}digo Aberto}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\slideentry {2}{1}{4}{15/15}{C\IeC {\'o}digo Aberto}{0}}
+\headcommand {\slideentry {2}{1}{5}{15/15}{C\IeC {\'o}digo Aberto}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\slideentry {2}{1}{5}{16/16}{C\IeC {\'o}digo Aberto}{0}}
+\headcommand {\slideentry {2}{1}{6}{16/16}{C\IeC {\'o}digo Aberto}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\slideentry {2}{1}{6}{17/17}{C\IeC {\'o}digo Aberto}{0}}
+\headcommand {\slideentry {2}{1}{7}{17/17}{C\IeC {\'o}digo Aberto}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {2}{1}{7}{18/18}{C\IeC {\'o}digo Aberto}{0}}
-\headcommand {\beamer@framepages {18}{18}}
-\headcommand {\slideentry {2}{1}{8}{19/20}{C\IeC {\'o}digo Aberto}{0}}
-\headcommand {\beamer@framepages {19}{20}}
-\headcommand {\slideentry {2}{1}{9}{21/22}{C\IeC {\'o}digo Aberto}{0}}
-\headcommand {\beamer@framepages {21}{22}}
+\headcommand {\slideentry {2}{1}{8}{18/19}{C\IeC {\'o}digo Aberto}{0}}
+\headcommand {\beamer@framepages {18}{19}}
+\headcommand {\slideentry {2}{1}{9}{20/21}{C\IeC {\'o}digo Aberto}{0}}
+\headcommand {\beamer@framepages {20}{21}}
+\headcommand {\slideentry {2}{1}{10}{22/22}{C\IeC {\'o}digo Aberto}{0}}
+\headcommand {\beamer@framepages {22}{22}}
 \headcommand {\sectionentry {3}{Diferen\IeC {\c c}as e Semelhan\IeC {\c c}as}{23}{Diferen\IeC {\c c}as e Semelhan\IeC {\c c}as}{0}}
-\headcommand {\beamer@sectionpages {12}{22}}
-\headcommand {\beamer@subsectionpages {12}{22}}
+\headcommand {\beamer@sectionpages {11}{22}}
+\headcommand {\beamer@subsectionpages {11}{22}}
 \headcommand {\beamer@subsectionentry {0}{3}{1}{23}{Diferen\IeC {\c c}as e Semelhan\IeC {\c c}as}}\headcommand {\beamer@subsectionpages {23}{22}}
 \headcommand {\slideentry {3}{1}{1}{23/23}{Diferen\IeC {\c c}as e Semelhan\IeC {\c c}as}{0}}
 \headcommand {\beamer@framepages {23}{23}}

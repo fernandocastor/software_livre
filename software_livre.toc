@@ -1,9 +1,9 @@
 \beamer@endinputifotherversion {3.33pt}
 \select@language {brazil}
-\beamer@sectionintoc {1}{Software Livre}{4}{0}{1}
-\beamer@subsectionintoc {1}{1}{Software Livre}{4}{0}{1}
-\beamer@sectionintoc {2}{C\IeC {\'o}digo Aberto}{12}{0}{2}
-\beamer@subsectionintoc {2}{1}{C\IeC {\'o}digo Aberto}{12}{0}{2}
+\beamer@sectionintoc {1}{Software Livre}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Software Livre}{3}{0}{1}
+\beamer@sectionintoc {2}{C\IeC {\'o}digo Aberto}{11}{0}{2}
+\beamer@subsectionintoc {2}{1}{C\IeC {\'o}digo Aberto}{11}{0}{2}
 \beamer@sectionintoc {3}{Diferen\IeC {\c c}as e Semelhan\IeC {\c c}as}{23}{0}{3}
 \beamer@subsectionintoc {3}{1}{Diferen\IeC {\c c}as e Semelhan\IeC {\c c}as}{23}{0}{3}
 \beamer@sectionintoc {4}{Aspectos Econ\IeC {\^o}micos}{25}{0}{4}
