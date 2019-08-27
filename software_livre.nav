@@ -1,12 +1,12 @@
-\beamer@endinputifotherversion {3.33pt}
 \headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
 \headcommand {\beamer@framepages {1}{1}}
 \headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
 \headcommand {\beamer@framepages {2}{2}}
-\headcommand {\sectionentry {1}{Software Livre}{3}{Software Livre}{0}}
 \headcommand {\beamer@sectionpages {1}{2}}
 \headcommand {\beamer@subsectionpages {1}{2}}
-\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Software Livre}}\headcommand {\beamer@subsectionpages {3}{2}}
+\headcommand {\sectionentry {1}{Software Livre}{3}{Software Livre}{0}}
+\headcommand {\beamer@subsectionpages {3}{2}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Software Livre}}
 \headcommand {\slideentry {1}{1}{1}{3/3}{Software Livre}{0}}
 \headcommand {\beamer@framepages {3}{3}}
 \headcommand {\slideentry {1}{1}{2}{4/4}{Software Livre}{0}}
@@ -23,10 +23,11 @@
 \headcommand {\beamer@framepages {9}{9}}
 \headcommand {\slideentry {1}{1}{8}{10/10}{Software Livre}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\sectionentry {2}{C\IeC {\'o}digo Aberto}{11}{C\IeC {\'o}digo Aberto}{0}}
 \headcommand {\beamer@sectionpages {3}{10}}
 \headcommand {\beamer@subsectionpages {3}{10}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{11}{C\IeC {\'o}digo Aberto}}\headcommand {\beamer@subsectionpages {11}{10}}
+\headcommand {\sectionentry {2}{C\IeC {\'o}digo Aberto}{11}{C\IeC {\'o}digo Aberto}{0}}
+\headcommand {\beamer@subsectionpages {11}{10}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{11}{C\IeC {\'o}digo Aberto}}
 \headcommand {\slideentry {2}{1}{1}{11/11}{C\IeC {\'o}digo Aberto}{0}}
 \headcommand {\beamer@framepages {11}{11}}
 \headcommand {\slideentry {2}{1}{2}{12/12}{C\IeC {\'o}digo Aberto}{0}}
@@ -43,86 +44,91 @@
 \headcommand {\beamer@framepages {17}{17}}
 \headcommand {\slideentry {2}{1}{8}{18/19}{C\IeC {\'o}digo Aberto}{0}}
 \headcommand {\beamer@framepages {18}{19}}
-\headcommand {\slideentry {2}{1}{9}{20/21}{C\IeC {\'o}digo Aberto}{0}}
-\headcommand {\beamer@framepages {20}{21}}
-\headcommand {\slideentry {2}{1}{10}{22/22}{C\IeC {\'o}digo Aberto}{0}}
+\headcommand {\slideentry {2}{1}{9}{20/20}{C\IeC {\'o}digo Aberto}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\slideentry {2}{1}{10}{21/21}{C\IeC {\'o}digo Aberto}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\beamer@sectionpages {11}{21}}
+\headcommand {\beamer@subsectionpages {11}{21}}
+\headcommand {\sectionentry {3}{Diferen\IeC {\c c}as e Semelhan\IeC {\c c}as}{22}{Diferen\IeC {\c c}as e Semelhan\IeC {\c c}as}{0}}
+\headcommand {\beamer@subsectionpages {22}{21}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{22}{Diferen\IeC {\c c}as e Semelhan\IeC {\c c}as}}
+\headcommand {\slideentry {3}{1}{1}{22/22}{Diferen\IeC {\c c}as e Semelhan\IeC {\c c}as}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\sectionentry {3}{Diferen\IeC {\c c}as e Semelhan\IeC {\c c}as}{23}{Diferen\IeC {\c c}as e Semelhan\IeC {\c c}as}{0}}
-\headcommand {\beamer@sectionpages {11}{22}}
-\headcommand {\beamer@subsectionpages {11}{22}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{23}{Diferen\IeC {\c c}as e Semelhan\IeC {\c c}as}}\headcommand {\beamer@subsectionpages {23}{22}}
-\headcommand {\slideentry {3}{1}{1}{23/23}{Diferen\IeC {\c c}as e Semelhan\IeC {\c c}as}{0}}
+\headcommand {\slideentry {3}{1}{2}{23/23}{Diferen\IeC {\c c}as e Semelhan\IeC {\c c}as}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\slideentry {3}{1}{2}{24/24}{Diferen\IeC {\c c}as e Semelhan\IeC {\c c}as}{0}}
+\headcommand {\beamer@sectionpages {22}{23}}
+\headcommand {\beamer@subsectionpages {22}{23}}
+\headcommand {\sectionentry {4}{Aspectos Econ\IeC {\^o}micos}{24}{Aspectos Econ\IeC {\^o}micos}{0}}
+\headcommand {\beamer@subsectionpages {24}{23}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{24}{Aspectos Econ\IeC {\^o}micos}}
+\headcommand {\slideentry {4}{1}{1}{24/24}{Aspectos Econ\IeC {\^o}micos}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\sectionentry {4}{Aspectos Econ\IeC {\^o}micos}{25}{Aspectos Econ\IeC {\^o}micos}{0}}
-\headcommand {\beamer@sectionpages {23}{24}}
-\headcommand {\beamer@subsectionpages {23}{24}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{25}{Aspectos Econ\IeC {\^o}micos}}\headcommand {\beamer@subsectionpages {25}{24}}
-\headcommand {\slideentry {4}{1}{1}{25/25}{Aspectos Econ\IeC {\^o}micos}{0}}
+\headcommand {\slideentry {4}{1}{2}{25/25}{Aspectos Econ\IeC {\^o}micos}{0}}
 \headcommand {\beamer@framepages {25}{25}}
-\headcommand {\slideentry {4}{1}{2}{26/26}{Aspectos Econ\IeC {\^o}micos}{0}}
+\headcommand {\slideentry {4}{1}{3}{26/26}{Aspectos Econ\IeC {\^o}micos}{0}}
 \headcommand {\beamer@framepages {26}{26}}
-\headcommand {\slideentry {4}{1}{3}{27/27}{Aspectos Econ\IeC {\^o}micos}{0}}
+\headcommand {\slideentry {4}{1}{4}{27/27}{Aspectos Econ\IeC {\^o}micos}{0}}
 \headcommand {\beamer@framepages {27}{27}}
-\headcommand {\slideentry {4}{1}{4}{28/28}{Aspectos Econ\IeC {\^o}micos}{0}}
-\headcommand {\beamer@framepages {28}{28}}
-\headcommand {\slideentry {4}{1}{5}{29/30}{Aspectos Econ\IeC {\^o}micos}{0}}
-\headcommand {\beamer@framepages {29}{30}}
-\headcommand {\slideentry {4}{1}{6}{31/31}{Aspectos Econ\IeC {\^o}micos}{0}}
-\headcommand {\beamer@framepages {31}{31}}
-\headcommand {\slideentry {4}{1}{7}{32/33}{Aspectos Econ\IeC {\^o}micos}{0}}
-\headcommand {\beamer@framepages {32}{33}}
-\headcommand {\slideentry {4}{1}{8}{34/34}{Aspectos Econ\IeC {\^o}micos}{0}}
+\headcommand {\slideentry {4}{1}{5}{28/29}{Aspectos Econ\IeC {\^o}micos}{0}}
+\headcommand {\beamer@framepages {28}{29}}
+\headcommand {\slideentry {4}{1}{6}{30/30}{Aspectos Econ\IeC {\^o}micos}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\slideentry {4}{1}{7}{31/32}{Aspectos Econ\IeC {\^o}micos}{0}}
+\headcommand {\beamer@framepages {31}{32}}
+\headcommand {\slideentry {4}{1}{8}{33/33}{Aspectos Econ\IeC {\^o}micos}{0}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\slideentry {4}{1}{9}{34/34}{Aspectos Econ\IeC {\^o}micos}{0}}
 \headcommand {\beamer@framepages {34}{34}}
-\headcommand {\slideentry {4}{1}{9}{35/35}{Aspectos Econ\IeC {\^o}micos}{0}}
+\headcommand {\slideentry {4}{1}{10}{35/35}{Aspectos Econ\IeC {\^o}micos}{0}}
 \headcommand {\beamer@framepages {35}{35}}
-\headcommand {\slideentry {4}{1}{10}{36/36}{Aspectos Econ\IeC {\^o}micos}{0}}
-\headcommand {\beamer@framepages {36}{36}}
-\headcommand {\slideentry {4}{1}{11}{37/38}{Aspectos Econ\IeC {\^o}micos}{0}}
-\headcommand {\beamer@framepages {37}{38}}
-\headcommand {\slideentry {4}{1}{12}{39/39}{Aspectos Econ\IeC {\^o}micos}{0}}
+\headcommand {\slideentry {4}{1}{11}{36/37}{Aspectos Econ\IeC {\^o}micos}{0}}
+\headcommand {\beamer@framepages {36}{37}}
+\headcommand {\slideentry {4}{1}{12}{38/38}{Aspectos Econ\IeC {\^o}micos}{0}}
+\headcommand {\beamer@framepages {38}{38}}
+\headcommand {\slideentry {4}{1}{13}{39/39}{Aspectos Econ\IeC {\^o}micos}{0}}
 \headcommand {\beamer@framepages {39}{39}}
-\headcommand {\slideentry {4}{1}{13}{40/40}{Aspectos Econ\IeC {\^o}micos}{0}}
-\headcommand {\beamer@framepages {40}{40}}
-\headcommand {\slideentry {4}{1}{14}{41/42}{Aspectos Econ\IeC {\^o}micos}{0}}
-\headcommand {\beamer@framepages {41}{42}}
-\headcommand {\slideentry {4}{1}{15}{43/43}{Aspectos Econ\IeC {\^o}micos}{0}}
-\headcommand {\beamer@framepages {43}{43}}
-\headcommand {\slideentry {4}{1}{16}{44/46}{Aspectos Econ\IeC {\^o}micos}{0}}
-\headcommand {\beamer@framepages {44}{46}}
-\headcommand {\slideentry {4}{1}{17}{47/47}{Aspectos Econ\IeC {\^o}micos}{0}}
+\headcommand {\slideentry {4}{1}{14}{40/41}{Aspectos Econ\IeC {\^o}micos}{0}}
+\headcommand {\beamer@framepages {40}{41}}
+\headcommand {\slideentry {4}{1}{15}{42/42}{Aspectos Econ\IeC {\^o}micos}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\slideentry {4}{1}{16}{43/45}{Aspectos Econ\IeC {\^o}micos}{0}}
+\headcommand {\beamer@framepages {43}{45}}
+\headcommand {\slideentry {4}{1}{17}{46/46}{Aspectos Econ\IeC {\^o}micos}{0}}
+\headcommand {\beamer@framepages {46}{46}}
+\headcommand {\beamer@sectionpages {24}{46}}
+\headcommand {\beamer@subsectionpages {24}{46}}
+\headcommand {\sectionentry {5}{Como se Beneficiar?}{47}{Como se Beneficiar?}{0}}
+\headcommand {\beamer@subsectionpages {47}{46}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{47}{Como se Beneficiar?}}
+\headcommand {\slideentry {5}{1}{1}{47/47}{Como se Beneficiar?}{0}}
 \headcommand {\beamer@framepages {47}{47}}
-\headcommand {\sectionentry {5}{Como se Beneficiar?}{48}{Como se Beneficiar?}{0}}
-\headcommand {\beamer@sectionpages {25}{47}}
-\headcommand {\beamer@subsectionpages {25}{47}}
-\headcommand {\beamer@subsectionentry {0}{5}{1}{48}{Como se Beneficiar?}}\headcommand {\beamer@subsectionpages {48}{47}}
-\headcommand {\slideentry {5}{1}{1}{48/48}{Como se Beneficiar?}{0}}
+\headcommand {\slideentry {5}{1}{2}{48/48}{Como se Beneficiar?}{0}}
 \headcommand {\beamer@framepages {48}{48}}
-\headcommand {\slideentry {5}{1}{2}{49/49}{Como se Beneficiar?}{0}}
+\headcommand {\slideentry {5}{1}{3}{49/49}{Como se Beneficiar?}{0}}
 \headcommand {\beamer@framepages {49}{49}}
-\headcommand {\slideentry {5}{1}{3}{50/50}{Como se Beneficiar?}{0}}
+\headcommand {\slideentry {5}{1}{4}{50/50}{Como se Beneficiar?}{0}}
 \headcommand {\beamer@framepages {50}{50}}
-\headcommand {\slideentry {5}{1}{4}{51/51}{Como se Beneficiar?}{0}}
+\headcommand {\slideentry {5}{1}{5}{51/51}{Como se Beneficiar?}{0}}
 \headcommand {\beamer@framepages {51}{51}}
-\headcommand {\slideentry {5}{1}{5}{52/52}{Como se Beneficiar?}{0}}
+\headcommand {\slideentry {5}{1}{6}{52/52}{Como se Beneficiar?}{0}}
 \headcommand {\beamer@framepages {52}{52}}
-\headcommand {\slideentry {5}{1}{6}{53/53}{Como se Beneficiar?}{0}}
+\headcommand {\slideentry {5}{1}{7}{53/53}{Como se Beneficiar?}{0}}
 \headcommand {\beamer@framepages {53}{53}}
-\headcommand {\slideentry {5}{1}{7}{54/54}{Como se Beneficiar?}{0}}
+\headcommand {\slideentry {5}{1}{8}{54/54}{Como se Beneficiar?}{0}}
 \headcommand {\beamer@framepages {54}{54}}
-\headcommand {\slideentry {5}{1}{8}{55/55}{Como se Beneficiar?}{0}}
+\headcommand {\slideentry {5}{1}{9}{55/55}{Como se Beneficiar?}{0}}
 \headcommand {\beamer@framepages {55}{55}}
-\headcommand {\slideentry {5}{1}{9}{56/56}{Como se Beneficiar?}{0}}
+\headcommand {\slideentry {5}{1}{10}{56/56}{Como se Beneficiar?}{0}}
 \headcommand {\beamer@framepages {56}{56}}
-\headcommand {\slideentry {5}{1}{10}{57/57}{Como se Beneficiar?}{0}}
+\headcommand {\beamer@sectionpages {47}{56}}
+\headcommand {\beamer@subsectionpages {47}{56}}
+\headcommand {\slideentry {6}{0}{1}{57/57}{}{0}}
 \headcommand {\beamer@framepages {57}{57}}
-\headcommand {\slideentry {6}{0}{11}{58/58}{}{0}}
+\headcommand {\slideentry {6}{0}{2}{58/58}{}{0}}
 \headcommand {\beamer@framepages {58}{58}}
-\headcommand {\slideentry {6}{0}{12}{59/59}{}{0}}
-\headcommand {\beamer@framepages {59}{59}}
-\headcommand {\beamer@partpages {1}{59}}
-\headcommand {\beamer@subsectionpages {58}{59}}
-\headcommand {\beamer@sectionpages {58}{59}}
-\headcommand {\beamer@documentpages {59}}
-\headcommand {\def \inserttotalframenumber {51}}
+\headcommand {\beamer@partpages {1}{58}}
+\headcommand {\beamer@subsectionpages {57}{58}}
+\headcommand {\beamer@sectionpages {57}{58}}
+\headcommand {\beamer@documentpages {58}}
+\headcommand {\gdef \inserttotalframenumber {51}}
