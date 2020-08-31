@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.3)  31 AUG 2020 15:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.3)  31 AUG 2020 16:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -718,20 +718,20 @@ Package babel Info: Making " an active character on input line 145.
 (./software_livre.aux)
 \openout1 = `software_livre.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -799,7 +799,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring OFF on input line 67.
+Package hyperref Info: Link coloring OFF on input line 66.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -809,66 +809,66 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count170
 )
-LaTeX Info: Redefining \ref on input line 67.
-LaTeX Info: Redefining \pageref on input line 67.
-LaTeX Info: Redefining \nameref on input line 67.
+LaTeX Info: Redefining \ref on input line 66.
+LaTeX Info: Redefining \pageref on input line 66.
+LaTeX Info: Redefining \nameref on input line 66.
 
 (./software_livre.out) (./software_livre.out)
 \@outlinefile=\write5
 \openout5 = `software_livre.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 67.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 66.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 67.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 66.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 67.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 67.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 67.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 67.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 66.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 67.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 67.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 67.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 66.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 67.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 67.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 67.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 66.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 67.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 67.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 66.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 67.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 66.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 67.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 67.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 67.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 67.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 67.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 67.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 67.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 66.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 66.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 6
-7.
+6.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-67.
+66.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 67.
+ut line 66.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -897,53 +897,53 @@ Dictionary: translator-theorem-dictionary, Language: English
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./cin.j
 pg> <./ines.png> <./spg.jpg> <./license.png>]
-<oss.jpg, id=53, 868.24374pt x 681.54625pt>
+<oss.jpg, id=97, 868.24374pt x 681.54625pt>
 File: oss.jpg Graphic file (type jpg)
 <use oss.jpg>
-Package pdftex.def Info: oss.jpg  used on input line 74.
+Package pdftex.def Info: oss.jpg  used on input line 79.
 (pdftex.def)             Requested size: 303.88986pt x 238.54475pt.
  [2
 
  <./oss.jpg>]
-<samsung.jpg, id=78, 225.84375pt x 83.5622pt>
+<samsung.jpg, id=122, 225.84375pt x 83.5622pt>
 File: samsung.jpg Graphic file (type jpg)
 <use samsung.jpg>
-Package pdftex.def Info: samsung.jpg  used on input line 148.
+Package pdftex.def Info: samsung.jpg  used on input line 153.
 (pdftex.def)             Requested size: 85.8215pt x 31.75395pt.
-<brasil.jpg, id=79, 435.6275pt x 181.67876pt>
+<brasil.jpg, id=123, 435.6275pt x 181.67876pt>
 File: brasil.jpg Graphic file (type jpg)
 <use brasil.jpg>
-Package pdftex.def Info: brasil.jpg  used on input line 148.
+Package pdftex.def Info: brasil.jpg  used on input line 153.
 (pdftex.def)             Requested size: 87.12395pt x 36.3351pt.
-<mozilla.png, id=80, 151.56625pt x 122.4575pt>
+<mozilla.png, id=124, 151.56625pt x 122.4575pt>
 File: mozilla.png Graphic file (type png)
 <use mozilla.png>
-Package pdftex.def Info: mozilla.png  used on input line 148.
+Package pdftex.def Info: mozilla.png  used on input line 153.
 (pdftex.def)             Requested size: 68.20418pt x 55.10535pt.
-<redhat.png, id=81, 501.875pt x 144.54pt>
+<redhat.png, id=125, 501.875pt x 144.54pt>
 File: redhat.png Graphic file (type png)
 <use redhat.png>
-Package pdftex.def Info: redhat.png  used on input line 148.
+Package pdftex.def Info: redhat.png  used on input line 153.
 (pdftex.def)             Requested size: 100.37321pt x 28.90747pt.
-<ibm.png, id=82, 501.875pt x 200.75pt>
+<ibm.png, id=126, 501.875pt x 200.75pt>
 File: ibm.png Graphic file (type png)
 <use ibm.png>
-Package pdftex.def Info: ibm.png  used on input line 148.
+Package pdftex.def Info: ibm.png  used on input line 153.
 (pdftex.def)             Requested size: 75.278pt x 30.11119pt.
-<facebook.jpg, id=83, 280.04625pt x 266.9975pt>
+<facebook.jpg, id=127, 280.04625pt x 266.9975pt>
 File: facebook.jpg Graphic file (type jpg)
 <use facebook.jpg>
-Package pdftex.def Info: facebook.jpg  used on input line 148.
+Package pdftex.def Info: facebook.jpg  used on input line 153.
 (pdftex.def)             Requested size: 53.20934pt x 50.73004pt.
-<apple_logo.png, id=84, 256.96pt x 256.96pt>
+<apple_logo.png, id=128, 256.96pt x 256.96pt>
 File: apple_logo.png Graphic file (type png)
 <use apple_logo.png>
-Package pdftex.def Info: apple_logo.png  used on input line 148.
+Package pdftex.def Info: apple_logo.png  used on input line 153.
 (pdftex.def)             Requested size: 48.8229pt x 48.8229pt.
-<microsoft.png, id=85, 301.125pt x 301.125pt>
+<microsoft.png, id=129, 301.125pt x 301.125pt>
 File: microsoft.png Graphic file (type png)
 <use microsoft.png>
-Package pdftex.def Info: microsoft.png  used on input line 148.
+Package pdftex.def Info: microsoft.png  used on input line 153.
 (pdftex.def)             Requested size: 57.21434pt x 57.21434pt.
  [3
 
@@ -951,17 +951,17 @@ Package pdftex.def Info: microsoft.png  used on input line 148.
 acebook.jpg> <./apple_logo.png> <./microsoft.png>] [4
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 210.
+LaTeX Font Info:    Try loading font information for U+msa on input line 215.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 210.
+LaTeX Font Info:    Try loading font information for U+msb on input line 215.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 210.
+line 215.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -971,53 +971,53 @@ thkerncmss.
 ] [6
 
 ]
-<licenca-oo.jpg, id=198, 416.55624pt x 401.5pt>
+<licenca-oo.jpg, id=240, 416.55624pt x 401.5pt>
 File: licenca-oo.jpg Graphic file (type jpg)
 <use licenca-oo.jpg>
-Package pdftex.def Info: licenca-oo.jpg  used on input line 299.
+Package pdftex.def Info: licenca-oo.jpg  used on input line 304.
 (pdftex.def)             Requested size: 145.79686pt x 140.5271pt.
-<lgpl3.png, id=199, 147.55125pt x 51.19125pt>
+<lgpl3.png, id=241, 147.55125pt x 51.19125pt>
 File: lgpl3.png Graphic file (type png)
 <use lgpl3.png>
-Package pdftex.def Info: lgpl3.png  used on input line 299.
+Package pdftex.def Info: lgpl3.png  used on input line 304.
 (pdftex.def)             Requested size: 73.77544pt x 25.59555pt.
-<gpl3.png, id=200, 127.47626pt x 51.19125pt>
+<gpl3.png, id=242, 127.47626pt x 51.19125pt>
 File: gpl3.png Graphic file (type png)
 <use gpl3.png>
-Package pdftex.def Info: gpl3.png  used on input line 299.
+Package pdftex.def Info: gpl3.png  used on input line 304.
 (pdftex.def)             Requested size: 63.73796pt x 25.59555pt.
  [7
 
  <./licenca-oo.jpg> <./lgpl3.png> <./gpl3.png>]
-<rms.jpg, id=229, 180.9159pt x 159.9576pt>
+<rms.jpg, id=271, 180.9159pt x 159.9576pt>
 File: rms.jpg Graphic file (type jpg)
 <use rms.jpg>
-Package pdftex.def Info: rms.jpg  used on input line 317.
+Package pdftex.def Info: rms.jpg  used on input line 322.
 (pdftex.def)             Requested size: 162.82278pt x 143.9605pt.
  [8
 
  <./rms.jpg>]
-<windows8.jpg, id=255, 451.6875pt x 254.45062pt>
+<windows8.jpg, id=298, 451.6875pt x 254.45062pt>
 File: windows8.jpg Graphic file (type jpg)
 <use windows8.jpg>
-Package pdftex.def Info: windows8.jpg  used on input line 335.
+Package pdftex.def Info: windows8.jpg  used on input line 340.
 (pdftex.def)             Requested size: 271.01459pt x 152.67154pt.
 
 [9
 
  <./windows8.jpg>]
-<tux.png, id=282, 265.99374pt x 315.1775pt>
+<tux.png, id=324, 265.99374pt x 315.1775pt>
 File: tux.png Graphic file (type png)
 <use tux.png>
-Package pdftex.def Info: tux.png  used on input line 349.
+Package pdftex.def Info: tux.png  used on input line 354.
 (pdftex.def)             Requested size: 119.69608pt x 141.82855pt.
  [10
 
  <./tux.png>]
-<avast.png, id=308, 501.875pt x 185.69376pt>
+<avast.png, id=350, 501.875pt x 185.69376pt>
 File: avast.png Graphic file (type png)
 <use avast.png>
-Package pdftex.def Info: avast.png  used on input line 365.
+Package pdftex.def Info: avast.png  used on input line 370.
 (pdftex.def)             Requested size: 225.84166pt x 83.56142pt.
  [11
 
@@ -1026,99 +1026,99 @@ Package pdftex.def Info: avast.png  used on input line 365.
 ] [13
 
 ]
-<dilbert.jpg, id=390, 642.4pt x 199.74625pt>
+<dilbert.jpg, id=430, 642.4pt x 199.74625pt>
 File: dilbert.jpg Graphic file (type jpg)
 <use dilbert.jpg>
-Package pdftex.def Info: dilbert.jpg  used on input line 467.
+Package pdftex.def Info: dilbert.jpg  used on input line 472.
 (pdftex.def)             Requested size: 256.95544pt x 79.89708pt.
  [14
 
  <./dilbert.jpg>]
-<esr.jpg, id=417, 301.125pt x 463.7325pt>
+<esr.jpg, id=457, 301.125pt x 463.7325pt>
 File: esr.jpg Graphic file (type jpg)
 <use esr.jpg>
-Package pdftex.def Info: esr.jpg  used on input line 500.
+Package pdftex.def Info: esr.jpg  used on input line 505.
 (pdftex.def)             Requested size: 90.33818pt x 139.12082pt.
-<perens.jpg, id=418, 146.949pt x 175.3752pt>
+<perens.jpg, id=458, 146.949pt x 175.3752pt>
 File: perens.jpg Graphic file (type jpg)
 <use perens.jpg>
-Package pdftex.def Info: perens.jpg  used on input line 500.
+Package pdftex.def Info: perens.jpg  used on input line 505.
 (pdftex.def)             Requested size: 110.21147pt x 131.53107pt.
  [15
 
  <./esr.jpg> <./perens.jpg>] [16
 
 ]
-<osd.png, id=469, 648.4225pt x 616.3025pt>
+<osd.png, id=510, 648.4225pt x 616.3025pt>
 File: osd.png Graphic file (type png)
 <use osd.png>
-Package pdftex.def Info: osd.png  used on input line 532.
+Package pdftex.def Info: osd.png  used on input line 537.
 (pdftex.def)             Requested size: 226.95126pt x 215.7091pt.
  [17
 
  <./osd.png>]
 File: redhat.png Graphic file (type png)
 <use redhat.png>
-Package pdftex.def Info: redhat.png  used on input line 605.
+Package pdftex.def Info: redhat.png  used on input line 610.
 (pdftex.def)             Requested size: 100.37321pt x 28.90747pt.
-<google.png, id=496, 1038.88126pt x 803.0pt>
+<google.png, id=536, 1038.88126pt x 803.0pt>
 File: google.png Graphic file (type png)
 <use google.png>
-Package pdftex.def Info: google.png  used on input line 605.
+Package pdftex.def Info: google.png  used on input line 610.
 (pdftex.def)             Requested size: 103.89421pt x 80.3047pt.
 File: microsoft.png Graphic file (type png)
 <use microsoft.png>
-Package pdftex.def Info: microsoft.png  used on input line 605.
+Package pdftex.def Info: microsoft.png  used on input line 610.
 (pdftex.def)             Requested size: 60.22392pt x 60.22392pt.
-<oracle.png, id=497, 501.875pt x 71.26625pt>
+<oracle.png, id=537, 501.875pt x 71.26625pt>
 File: oracle.png Graphic file (type png)
 <use oracle.png>
-Package pdftex.def Info: oracle.png  used on input line 605.
+Package pdftex.def Info: oracle.png  used on input line 610.
 (pdftex.def)             Requested size: 100.37321pt x 14.25299pt.
 File: ibm.png Graphic file (type png)
 <use ibm.png>
-Package pdftex.def Info: ibm.png  used on input line 605.
+Package pdftex.def Info: ibm.png  used on input line 610.
 (pdftex.def)             Requested size: 75.278pt x 30.11119pt.
-<mysql.png, id=498, 501.875pt x 259.97125pt>
+<mysql.png, id=538, 501.875pt x 259.97125pt>
 File: mysql.png Graphic file (type png)
 <use mysql.png>
-Package pdftex.def Info: mysql.png  used on input line 605.
+Package pdftex.def Info: mysql.png  used on input line 610.
 (pdftex.def)             Requested size: 75.278pt x 38.994pt.
 File: apple_logo.png Graphic file (type png)
 <use apple_logo.png>
-Package pdftex.def Info: apple_logo.png  used on input line 605.
+Package pdftex.def Info: apple_logo.png  used on input line 610.
 (pdftex.def)             Requested size: 38.54233pt x 38.54233pt.
 File: mozilla.png Graphic file (type png)
 <use mozilla.png>
-Package pdftex.def Info: mozilla.png  used on input line 605.
+Package pdftex.def Info: mozilla.png  used on input line 610.
 (pdftex.def)             Requested size: 33.34467pt x 26.94072pt.
  [18
 
  <./google.png> <./oracle.png> <./mysql.png>]
-<lbt.jpg, id=527, 202.356pt x 279.6849pt>
+<lbt.jpg, id=567, 202.356pt x 279.6849pt>
 File: lbt.jpg Graphic file (type jpg)
 <use lbt.jpg>
-Package pdftex.def Info: lbt.jpg  used on input line 621.
+Package pdftex.def Info: lbt.jpg  used on input line 626.
 (pdftex.def)             Requested size: 121.41452pt x 167.81223pt.
  [19
 
  <./lbt.jpg>]
 File: lbt.jpg Graphic file (type jpg)
 <use lbt.jpg>
-Package pdftex.def Info: lbt.jpg  used on input line 621.
+Package pdftex.def Info: lbt.jpg  used on input line 626.
 (pdftex.def)             Requested size: 121.41452pt x 167.81223pt.
  [20
 
 ] [21
 
 ]
-<distros.png, id=604, 701.62125pt x 447.92343pt>
+<distros.png, id=644, 701.62125pt x 447.92343pt>
 File: distros.png Graphic file (type png)
 <use distros.png>
-Package pdftex.def Info: distros.png  used on input line 660.
+Package pdftex.def Info: distros.png  used on input line 665.
 (pdftex.def)             Requested size: 350.80975pt x 223.96117pt.
 
-Overfull \hbox (43.51988pt too wide) in paragraph at lines 660--660
+Overfull \hbox (43.51988pt too wide) in paragraph at lines 665--665
 [][]  
  []
 
@@ -1135,18 +1135,18 @@ Overfull \hbox (43.51988pt too wide) in paragraph at lines 660--660
 ] [27
 
 ]
-<elisa_chocada.JPG, id=763, 1096.095pt x 1124.2pt>
+<elisa_chocada.JPG, id=799, 1096.095pt x 1124.2pt>
 File: elisa_chocada.JPG Graphic file (type jpg)
 <use elisa_chocada.JPG>
-Package pdftex.def Info: elisa_chocada.JPG  used on input line 808.
+Package pdftex.def Info: elisa_chocada.JPG  used on input line 814.
 (pdftex.def)             Requested size: 230.18674pt x 236.08896pt.
  [28
 
  <./elisa_chocada.JPG>]
-<ibm_redhat.png, id=789, 914.41624pt x 759.83875pt>
+<ibm_redhat.png, id=826, 914.41624pt x 759.83875pt>
 File: ibm_redhat.png Graphic file (type png)
 <use ibm_redhat.png>
-Package pdftex.def Info: ibm_redhat.png  used on input line 865.
+Package pdftex.def Info: ibm_redhat.png  used on input line 871.
 (pdftex.def)             Requested size: 201.1722pt x 167.16504pt.
 
 [29
@@ -1154,18 +1154,18 @@ Package pdftex.def Info: ibm_redhat.png  used on input line 865.
  <./ibm_redhat.png>]
 File: ibm_redhat.png Graphic file (type png)
 <use ibm_redhat.png>
-Package pdftex.def Info: ibm_redhat.png  used on input line 865.
+Package pdftex.def Info: ibm_redhat.png  used on input line 871.
 (pdftex.def)             Requested size: 201.1722pt x 167.16504pt.
  [30
 
 ]
-<oss_contributors.png, id=843, 1029.8475pt x 578.16pt>
+<oss_contributors.png, id=879, 1029.8475pt x 578.16pt>
 File: oss_contributors.png Graphic file (type png)
 <use oss_contributors.png>
-Package pdftex.def Info: oss_contributors.png  used on input line 874.
+Package pdftex.def Info: oss_contributors.png  used on input line 880.
 (pdftex.def)             Requested size: 308.95663pt x 173.44933pt.
 
-Overfull \hbox (1.66676pt too wide) in paragraph at lines 874--874
+Overfull \hbox (1.66676pt too wide) in paragraph at lines 880--880
  [] 
  []
 
@@ -1176,51 +1176,51 @@ Overfull \hbox (1.66676pt too wide) in paragraph at lines 874--874
 ] [33
 
 ]
-<android-logo.png, id=922, 1683.96117pt x 1886.0365pt>
+<android-logo.png, id=958, 1683.96117pt x 1886.0365pt>
 File: android-logo.png Graphic file (type png)
 <use android-logo.png>
-Package pdftex.def Info: android-logo.png  used on input line 916.
+Package pdftex.def Info: android-logo.png  used on input line 922.
 (pdftex.def)             Requested size: 370.47261pt x 414.92932pt.
 
-Overfull \hbox (63.18274pt too wide) in paragraph at lines 916--916
+Overfull \hbox (63.18274pt too wide) in paragraph at lines 922--922
 [][]  
  []
 
 
-Overfull \vbox (169.6562pt too high) detected at line 916
+Overfull \vbox (169.6562pt too high) detected at line 922
  []
 
 [34
 
  <./android-logo.png>]
-<swift_logo.png, id=949, 1027.84pt x 556.0775pt>
+<swift_logo.png, id=985, 1027.84pt x 556.0775pt>
 File: swift_logo.png Graphic file (type png)
 <use swift_logo.png>
-Package pdftex.def Info: swift_logo.png  used on input line 931.
+Package pdftex.def Info: swift_logo.png  used on input line 937.
 (pdftex.def)             Requested size: 226.12549pt x 122.33742pt.
  [35
 
  <./swift_logo.png>]
-<joker.jpg, id=976, 520.94624pt x 341.275pt>
+<joker.jpg, id=1012, 520.94624pt x 341.275pt>
 File: joker.jpg Graphic file (type jpg)
 <use joker.jpg>
-Package pdftex.def Info: joker.jpg  used on input line 939.
+Package pdftex.def Info: joker.jpg  used on input line 945.
 (pdftex.def)             Requested size: 338.61105pt x 221.82611pt.
 
-Overfull \hbox (31.32118pt too wide) in paragraph at lines 939--939
+Overfull \hbox (31.32118pt too wide) in paragraph at lines 945--945
  [] 
  []
 
 [36
 
  <./joker.jpg>]
-<receita_floss.jpg, id=1002, 429.2838pt x 214.8828pt>
+<receita_floss.jpg, id=1038, 429.2838pt x 214.8828pt>
 File: receita_floss.jpg Graphic file (type jpg)
 <use receita_floss.jpg>
-Package pdftex.def Info: receita_floss.jpg  used on input line 974.
+Package pdftex.def Info: receita_floss.jpg  used on input line 980.
 (pdftex.def)             Requested size: 321.96205pt x 161.1617pt.
 
-Overfull \hbox (14.67218pt too wide) in paragraph at lines 974--974
+Overfull \hbox (14.67218pt too wide) in paragraph at lines 980--980
  [] 
  []
 
@@ -1229,60 +1229,60 @@ Overfull \hbox (14.67218pt too wide) in paragraph at lines 974--974
  <./receita_floss.jpg>]
 File: receita_floss.jpg Graphic file (type jpg)
 <use receita_floss.jpg>
-Package pdftex.def Info: receita_floss.jpg  used on input line 974.
+Package pdftex.def Info: receita_floss.jpg  used on input line 980.
 (pdftex.def)             Requested size: 321.96205pt x 161.1617pt.
 
-Overfull \hbox (14.67218pt too wide) in paragraph at lines 974--974
+Overfull \hbox (14.67218pt too wide) in paragraph at lines 980--980
  [] 
  []
 
 [38
 
 ]
-<thanos.jpg, id=1055, 602.25pt x 301.125pt>
+<thanos.jpg, id=1091, 602.25pt x 301.125pt>
 File: thanos.jpg Graphic file (type jpg)
 <use thanos.jpg>
-Package pdftex.def Info: thanos.jpg  used on input line 982.
+Package pdftex.def Info: thanos.jpg  used on input line 988.
 (pdftex.def)             Requested size: 391.45786pt x 195.72891pt.
 
-Overfull \hbox (84.16798pt too wide) in paragraph at lines 982--982
+Overfull \hbox (84.16798pt too wide) in paragraph at lines 988--988
  [] 
  []
 
 [39
 
  <./thanos.jpg>]
-<time_spent.jpg, id=1081, 493.845pt x 602.25pt>
+<time_spent.jpg, id=1117, 493.845pt x 602.25pt>
 File: time_spent.jpg Graphic file (type jpg)
 <use time_spent.jpg>
-Package pdftex.def Info: time_spent.jpg  used on input line 993.
+Package pdftex.def Info: time_spent.jpg  used on input line 999.
 (pdftex.def)             Requested size: 246.92189pt x 301.12425pt.
 
-Overfull \vbox (77.87909pt too high) detected at line 993
+Overfull \vbox (77.87909pt too high) detected at line 999
  []
 
 [40
 
  <./time_spent.jpg>]
-<android.png, id=1107, 737.75626pt x 527.9725pt>
+<android.png, id=1143, 737.75626pt x 527.9725pt>
 File: android.png Graphic file (type png)
 <use android.png>
-Package pdftex.def Info: android.png  used on input line 1023.
+Package pdftex.def Info: android.png  used on input line 1029.
 (pdftex.def)             Requested size: 221.32858pt x 158.39296pt.
  [41
 
  <./android.png>]
 File: android.png Graphic file (type png)
 <use android.png>
-Package pdftex.def Info: android.png  used on input line 1023.
+Package pdftex.def Info: android.png  used on input line 1029.
 (pdftex.def)             Requested size: 221.32858pt x 158.39296pt.
  [42
 
 ]
-<apple_revenue.jpg, id=1161, 735.74875pt x 522.95375pt>
+<apple_revenue.jpg, id=1197, 735.74875pt x 522.95375pt>
 File: apple_revenue.jpg Graphic file (type jpg)
 <use apple_revenue.jpg>
-Package pdftex.def Info: apple_revenue.jpg  used on input line 1029.
+Package pdftex.def Info: apple_revenue.jpg  used on input line 1035.
 (pdftex.def)             Requested size: 279.58742pt x 198.72449pt.
  [43
 
@@ -1300,99 +1300,99 @@ Package pdftex.def Info: apple_revenue.jpg  used on input line 1029.
 ] [49
 
 ]
-<example_CV.jpg, id=1342, 240.9pt x 340.6326pt>
+<example_CV.jpg, id=1377, 240.9pt x 340.6326pt>
 File: example_CV.jpg Graphic file (type jpg)
 <use example_CV.jpg>
-Package pdftex.def Info: example_CV.jpg  used on input line 1279.
+Package pdftex.def Info: example_CV.jpg  used on input line 1285.
 (pdftex.def)             Requested size: 180.67455pt x 255.47382pt.
 
-Overfull \vbox (10.2007pt too high) detected at line 1279
+Overfull \vbox (10.2007pt too high) detected at line 1285
  []
 
 [50
 
  <./example_CV.jpg>]
-<example_CV2.jpg, id=1369, 240.9pt x 340.6326pt>
+<example_CV2.jpg, id=1403, 240.9pt x 340.6326pt>
 File: example_CV2.jpg Graphic file (type jpg)
 <use example_CV2.jpg>
-Package pdftex.def Info: example_CV2.jpg  used on input line 1284.
+Package pdftex.def Info: example_CV2.jpg  used on input line 1290.
 (pdftex.def)             Requested size: 180.67455pt x 255.47382pt.
 
-Overfull \vbox (10.2007pt too high) detected at line 1284
+Overfull \vbox (10.2007pt too high) detected at line 1290
  []
 
 [51
 
  <./example_CV2.jpg>]
-<contrib.jpg, id=1395, 1601.985pt x 88.33pt>
+<contrib.jpg, id=1429, 1601.985pt x 88.33pt>
 File: contrib.jpg Graphic file (type jpg)
 <use contrib.jpg>
-Package pdftex.def Info: contrib.jpg  used on input line 1288.
+Package pdftex.def Info: contrib.jpg  used on input line 1294.
 (pdftex.def)             Requested size: 480.59921pt x 26.49919pt.
 
-Overfull \hbox (173.30934pt too wide) in paragraph at lines 1288--1288
+Overfull \hbox (173.30934pt too wide) in paragraph at lines 1294--1294
 [][]  
  []
 
 [52
 
  <./contrib.jpg>]
-<oss_jobs.jpg, id=1421, 602.25pt x 541.02126pt>
+<oss_jobs.jpg, id=1455, 602.25pt x 541.02126pt>
 File: oss_jobs.jpg Graphic file (type jpg)
 <use oss_jobs.jpg>
-Package pdftex.def Info: oss_jobs.jpg  used on input line 1293.
+Package pdftex.def Info: oss_jobs.jpg  used on input line 1299.
 (pdftex.def)             Requested size: 271.01pt x 243.4573pt.
  [53
 
  <./oss_jobs.jpg>]
-<oss_jobs2.jpg, id=1447, 602.25pt x 523.9575pt>
+<oss_jobs2.jpg, id=1482, 602.25pt x 523.9575pt>
 File: oss_jobs2.jpg Graphic file (type jpg)
 <use oss_jobs2.jpg>
-Package pdftex.def Info: oss_jobs2.jpg  used on input line 1298.
+Package pdftex.def Info: oss_jobs2.jpg  used on input line 1304.
 (pdftex.def)             Requested size: 271.01pt x 235.77869pt.
  [54
 
  <./oss_jobs2.jpg>]
-<economia.jpg, id=1474, 702.625pt x 456.70625pt>
+<economia.jpg, id=1508, 702.625pt x 456.70625pt>
 File: economia.jpg Graphic file (type jpg)
 <use economia.jpg>
-Package pdftex.def Info: economia.jpg  used on input line 1312.
+Package pdftex.def Info: economia.jpg  used on input line 1318.
 (pdftex.def)             Requested size: 316.17833pt x 205.5159pt.
 
-Overfull \hbox (8.88846pt too wide) in paragraph at lines 1312--1312
+Overfull \hbox (8.88846pt too wide) in paragraph at lines 1318--1318
 [][]  
  []
 
 [55
 
  <./economia.jpg>]
-<economia2.jpg, id=1501, 702.625pt x 456.70625pt>
+<economia2.jpg, id=1535, 702.625pt x 456.70625pt>
 File: economia2.jpg Graphic file (type jpg)
 <use economia2.jpg>
-Package pdftex.def Info: economia2.jpg  used on input line 1317.
+Package pdftex.def Info: economia2.jpg  used on input line 1323.
 (pdftex.def)             Requested size: 316.17833pt x 205.5159pt.
 
-Overfull \hbox (8.88846pt too wide) in paragraph at lines 1317--1317
+Overfull \hbox (8.88846pt too wide) in paragraph at lines 1323--1323
 [][]  
  []
 
 [56
 
  <./economia2.jpg>]
-<msr.png, id=1526, 1205.50375pt x 716.6775pt>
+<msr.png, id=1560, 1205.50375pt x 716.6775pt>
 File: msr.png Graphic file (type png)
 <use msr.png>
-Package pdftex.def Info: msr.png  used on input line 1322.
+Package pdftex.def Info: msr.png  used on input line 1328.
 (pdftex.def)             Requested size: 289.32681pt x 172.00612pt.
  [57
 
  <./msr.png>] [58
 
 ]
-<by-nc-sa.png, id=1578, 97.0827pt x 33.9669pt>
+<by-nc-sa.png, id=1611, 97.0827pt x 33.9669pt>
 File: by-nc-sa.png Graphic file (type png)
 <use by-nc-sa.png>
-Package pdftex.def Info: by-nc-sa.png  used on input line 1388.
+Package pdftex.def Info: by-nc-sa.png  used on input line 1394.
 (pdftex.def)             Requested size: 67.95741pt x 23.77666pt.
  [59
 
@@ -1406,28 +1406,21 @@ Package pdftex.def Info: by-nc-sa.png  used on input line 1388.
 \tf@snm=\write8
 \openout8 = `software_livre.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1391.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1391.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1397.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1397.
 
 (./software_livre.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1391.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1391.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1397.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1397.
 
-
-
-Package rerunfilecheck Warning: File `software_livre.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `software_livre.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  D29FE13D6C95CDBAAD72AF9CA8AEFA16;663.
+Package rerunfilecheck Info: File `software_livre.out' has not changed.
+(rerunfilecheck)             Checksum: D29FE13D6C95CDBAAD72AF9CA8AEFA16;663.
  ) 
 Here is how much of TeX's memory you used:
- 18424 strings out of 492616
- 345006 string characters out of 6129482
- 434543 words of memory out of 5000000
- 21740 multiletter control sequences out of 15000+600000
+ 18436 strings out of 492616
+ 345164 string characters out of 6129482
+ 434496 words of memory out of 5000000
+ 21752 multiletter control sequences out of 15000+600000
  19127 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,14n,55p,819b,853s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1441,10 +1434,10 @@ r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></us
 r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></us
 r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 
-Output written on software_livre.pdf (59 pages, 4537247 bytes).
+Output written on software_livre.pdf (59 pages, 4537762 bytes).
 PDF statistics:
- 1665 PDF objects out of 1728 (max. 8388607)
- 1502 compressed objects within 16 object streams
+ 1699 PDF objects out of 1728 (max. 8388607)
+ 1536 compressed objects within 16 object streams
  130 named destinations out of 1000 (max. 500000)
- 288 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 376 words of extra memory for PDF output out of 10000 (max. 10000000)
 
