@@ -48,16 +48,19 @@
 \pgfdeclareimage[height=0.4cm]{cc}{license}
 
 \institute{Centro de Inform\'{a}tica -- Universidade Federal de Pernambuco 
+\\[0.5cm]
+Faculty of Information and Computing Sciences -- Utrecht University
 \\[1.5cm] {\tiny Alguns direitos reservados }\pgfuseimage{cc} }
 \date{}
 
-\pgfdeclareimage[height=1.0cm]{logo}{ines}
-\pgfdeclareimage[height=0.8cm]{logo2}{spg}
-\pgfdeclareimage[height=0.8cm]{logo3}{cin}
+%\pgfdeclareimage[height=1.0cm]{logo}{ines}
+%\pgfdeclareimage[height=0.8cm]{logo2}{spg}
+\pgfdeclareimage[height=0.4cm]{logo3}{cin}
+\pgfdeclareimage[height=0.4cm]{utrecht}{utrecht}
 %\pgfdeclareimage[height=1.1cm]{logo4}{talk}
 
-\logo{\pgfuseimage{logo3}\hspace{0.1cm}
-\pgfuseimage{logo}\hspace{0.1cm}\pgfuseimage{logo2}}
+\logo{\pgfuseimage{logo3}\hspace{0.1cm}\pgfuseimage{utrecht}}
+%\pgfuseimage{logo}\hspace{0.1cm}\hspace{0.1cm}\pgfuseimage{logo2}}
 
 
 %\logo{\pgfuseimage{logo4}\hspace{0.1cm}\pgfuseimage{logo3}\hspace{0.1cm}
@@ -118,7 +121,8 @@
     % anunciou que investiria pelo menos mais 1 bilhão tanto no Linux quanto
     % em tecnologias de software de código aberto. 
     % Mais informações em http://www-03.ibm.com/press/us/en/pressrelease/41926.wss
-    % Além disso tudo, tem o investimento grande que ela fez na plataforma Eclipse.
+    % Além disso tudo, tem o investimento grande que ela fez na plataforma Eclipse. 
+	% Posteriormente, comprou a Red Hat, como mencionado acima. 34 bilhões de dólares.
 	%Licença: Esta imagem, ou texto mostrado nela, consiste somente de 
     % simples formas geométricas ou texto. 
 	% Elas não se encontram no limiar de originalidade necessário para a   
@@ -308,7 +312,7 @@ liberdades 1 e 3.
  	\frametitle{Quem é esse?}
  	\begin{figure}
  	\begin{center}
- 	\includegraphics[scale=0.9]{rms.jpg}\\
+ 	\includegraphics[scale=0.18]{rms.jpg}\\
  	%\pause
  	Richard M. Stallman
      % Richard M. Stallman
@@ -327,7 +331,7 @@ liberdades 1 e 3.
 	% NÃO. Licença 
 %proprietária com várias restrições de uso e distribuição.
 	\begin{figure}
-	\includegraphics[scale=0.60]{windows8.jpg}\\
+	\includegraphics[scale=0.21]{windows.jpg}\\
    %Licença: Microsoft product screen shot, used with permission from 
    %Microsoft. This image is a copyrighted screen shot of a 
    %commercially-released computer software product of Microsoft Corporation. 
@@ -471,9 +475,22 @@ Livre\vspace{0.1cm}
 
 \end{frame}
 
+\begin{frame}
+	\frametitle{A criadora do termo ``Código Aberto''}
 
+	\begin{figure}
+	\includegraphics[scale=0.2]{christinepeterson.jpg}
+% Christine Peterson
+% "Christine Peterson is a futurist and lecturer in the field of nanotechnology. Peterson coined the term “open source” in 1998 as part of a concerted effort to make source code sharing more appealing to commercial software developers and the broader business community."
+% https://www.facesofopensource.com/christine-peterson-2/
+% Uma descrição de como foi a criação do termo "open source", 
+% pela própria Christine: https://opensource.com/article/18/2/coining-term-open-source-software
+	\end{figure}
+%\pause
+\begin{center}Christine Peterson\end{center}
+\end{frame}
  \begin{frame}
- 	\frametitle{Quem são esses dois?}
+ 	\frametitle{Possivelmente os dois maiores evangelistas do movimento em seus primeiros anos}
  
  	\begin{columns}
  \begin{column}{4.5cm}
@@ -544,12 +561,12 @@ Livre\vspace{0.1cm}
 	\begin{center}
 	% Todas as imagens mencionadas abaixo foram tiradas das páginas da 
 % Wikipedia que descrevem as respectivas organizações.
-	\includegraphics[scale=0.20]{redhat.png}
+%	\includegraphics[scale=0.20]{redhat.png}
 	%Licença: Copyright pertence à Red Hat, Inc. Uso para fins educacionais 
 % e não-comerciais com uma figura de
     % baixa resolução é PROVAVELMENTE considerando um uso justo (fair use) de 
 % acordo com a lei americana.
-	\includegraphics[scale=0.10]{google.png}
+%	\includegraphics[scale=0.10]{google.png}
 	%Licença: Esta imagem, ou texto mostrado nela, consiste somente de 
 % simples formas geométricas ou texto. 
 	% Elas não se encontram no limiar de originalidade necessário para a 
@@ -557,7 +574,7 @@ Livre\vspace{0.1cm}
 	% isso estão em domínio público. Embora seja livre de restrições de 
 % direitos autorais, esta imagem ainda 
 	% pode estar sujeita a outras restrições.
-	\hspace{0.15cm}\includegraphics[scale=0.20]{microsoft.png} \\[0.3cm]
+	\hspace{0.15cm}\includegraphics[scale=0.20]{microsoft.png}
 	%Licença: Esta imagem, ou texto mostrado nela, consiste somente de 
 % simples formas geométricas ou texto. 
 	% Elas não se encontram no limiar de originalidade necessário para a 
@@ -565,6 +582,9 @@ Livre\vspace{0.1cm}
 	% isso estão em domínio público. Embora seja livre de restrições de 
 % direitos autorais, esta imagem ainda 
 	% pode estar sujeita a outras restrições.
+	\hspace{0.15cm}\includegraphics[scale=0.15]{facebook.jpg} \\[0.3cm]
+	\hspace{0.15cm}\includegraphics[scale=0.15]{alibaba.jpg}	
+	\hspace{0.15cm}\includegraphics[scale=0.25]{amazon.png} \\[0.3cm]
 	\hspace{0.15cm}\includegraphics[scale=0.20]{oracle.png}
 	%Licença: Esta imagem, ou texto mostrado nela, consiste somente de 
 % simples formas geométricas ou texto. 
@@ -573,6 +593,7 @@ Livre\vspace{0.1cm}
 	% isso estão em domínio público. Embora seja livre de restrições de 
 % direitos autorais, esta imagem ainda 
 	% pode estar sujeita a outras restrições.
+	\hspace{0.15cm}\includegraphics[scale=0.55]{uber.png}
 	\hspace{0.15cm}\includegraphics[scale=0.15]{ibm.png}\\[0.3cm]
 	%Licença: Esta imagem, ou texto mostrado nela, consiste somente de 
 % simples formas geométricas ou texto. 
@@ -581,7 +602,7 @@ Livre\vspace{0.1cm}
 	% isso estão em domínio público. Embora seja livre de restrições de 
 % direitos autorais, esta imagem ainda 
 	% pode estar sujeita a outras restrições.
-	\includegraphics[scale=0.15]{mysql.png}
+%	\includegraphics[scale=0.15]{mysql.png}
 	%Licença: Copyright pertence à Red Hat, Inc. Uso para fins educacionais 
 % e não-comerciais com uma figura de
     % baixa resolução é PROVAVELMENTE considerando um uso justo (fair use) de 
@@ -594,7 +615,8 @@ Livre\vspace{0.1cm}
 	% isso estão em domínio público. Embora seja livre de restrições de 
 % direitos autorais, esta imagem ainda 
 	% pode estar sujeita a outras restrições.
-	\hspace{0.2cm}\includegraphics[scale=0.22]{mozilla.png}\\
+%	\hspace{0.2cm}\includegraphics[scale=0.22]{mozilla.png}
+	\hspace{0.15cm}\includegraphics[scale=0.10]{google.png} 
 	% Licença: This file contains a logo for a Mozilla product (such as the 
 % Firefox browser or the Mozilla Thunderbird email client) and is protected by 
 % copyright and/or trademark by the Mozilla Foundation and/or its subsidiary 
@@ -615,7 +637,7 @@ Livre\vspace{0.1cm}
 	\frametitle{Quem é esse?}
 	\begin{figure}
 	\begin{center}
-	\includegraphics[scale=0.6]{lbt.jpg}\\
+	\includegraphics[scale=0.2]{lbt.jpg}\\
 	\pause
 	Linus B. Torvalds
 % Linus Torvalds
@@ -1010,17 +1032,20 @@ Resposta curta: \textbf{SIM!}
 	{\footnotesize 
 	\begin{block}{Cada um desses smartphones...}	
 	\begin{itemize}
-	\item é um ponto de entrada para pessoas conectarem-se à Internet;
+%	\item é um ponto de entrada para pessoas conectarem-se à Internet;
     % e usar o Google! 
     % Vale ressaltar que o Google adquiriu a Android Inc., empresa que começou a desenvolver o Android pouco antes, lá por 2005. 
     % Vale ressaltar que o a primeira versão do todo-poderoso iPhone só foi lançada em 2007! 
     % A primeira versão do Android saiu em 2008. 
 	\item funciona bem com as ferramentas do Google, incluindo Play Store;
 	\item coleta informações que o Google pode usar.
+	\item Em 2021: mais de 3 bilhões de dispositivos Android!
 	% Missão do Google: http://www.google.com/about/company/
 	% Mais informaçõs a seguir:
 	% Por que o modelo de negócios do Google funciona: http://www.usnews.com/opinion/blogs/economic-intelligence/2013/06/25/why-googles-business-model-works
-	% Questões legais: http://womeninbusiness.about.com/od/best-worst/a/What-Googles-New-Terms-Of-Service-Really-Mean-To-You-Part-2.htm 
+	% Questões legais: http://womeninbusiness.about.com/od/best-worst/a/What-Googles-New-Terms-Of-Service-Really-Mean-To-You-Part-2.htm
+	% Sobre a quantidade de dispositivos Android: 
+	% https://www.theverge.com/2021/5/18/22440813/android-devices-active-number-smartphones-google-2021 
 	\end{itemize}
 	\end{block}}
 	%\begin{block}{}
@@ -1030,8 +1055,8 @@ Resposta curta: \textbf{SIM!}
 
 \begin{frame}
 	\frametitle{Fontes de receita da Apple}
- 	\includegraphics[scale=0.38]{apple_revenue.jpg}	
- 	% Fonte: http://www.macrumors.com/2015/10/27/q4-2015-earnings/
+ 	\includegraphics[scale=0.34]{apple_revenue2.png}	
+ 	% Fonte: https://www.statista.com/statistics/382136/quarterly-segments-revenue-of-apple/
 \end{frame}
 
 
@@ -1293,14 +1318,14 @@ Resposta curta: \textbf{SIM!}
  	\includegraphics[scale=0.30]{contrib.jpg}
 \end{frame}
 
-\begin{frame}
-	\frametitle{Há muitas oportunidades para trabalhar com FLOSS!}
- 	\includegraphics[scale=0.45]{oss_jobs.jpg}
-\end{frame}
+%\begin{frame}
+%	\frametitle{Há muitas oportunidades para trabalhar com FLOSS!}
+% 	\includegraphics[scale=0.45]{oss_jobs.jpg}
+%\end{frame}
 
 \begin{frame}
 	\frametitle{Há muitas oportunidades para trabalhar com FLOSS!}
- 	\includegraphics[scale=0.45]{oss_jobs2.jpg}
+ 	\includegraphics[scale=0.25]{oss_jobs2.jpg}
 \end{frame}
 
 \begin{frame}
@@ -1324,7 +1349,7 @@ Resposta curta: \textbf{SIM!}
 
 \begin{frame}
 	\frametitle{Fonte de dados para pesquisa}
- 	\includegraphics[scale=0.24]{msr.png}
+ 	\includegraphics[scale=0.45]{msr.png}
 \end{frame}
 
 
